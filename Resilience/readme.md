@@ -54,6 +54,6 @@ jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore patch.keystore 
 ```
 Ao carregar o apk modificado, no ambiente de teste pode-se perceber que a funcionalidade criar o usuário agora aparece. 
 
-![app_admin](app_admin.png)
+![app_admin](.img/app_admin.png)
 
 ## Ação sugerida para mitigação
