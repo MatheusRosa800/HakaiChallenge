@@ -35,7 +35,7 @@ apktool d InsecureBankv2.apk
 
 Serão gerados diversas pastas das quais o alvo de alteração se encontra no caminho IsecureBankv2/res/values. O arquivo onde foi encontrado o possível ponto de alteração é o string.xml que poder ser aberto e editado com qualquer editor de texto. 
 
-![string_adm](.img/string_adm)
+![string_adm](.img/string_adm.png)
 
 Após realizar a alteração, é necessario recompilar o apk apontando o apktool para o diretório gerado na decopilação com a seguinte comando:
 
@@ -54,6 +54,6 @@ jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore patch.keystore 
 ```
 Ao carregar o apk modificado, no ambiente de teste pode-se perceber que a funcionalidade criar o usuário agora aparece. 
 
-![app_admin](app_admin)
+![app_admin](app_admin.png)
 
 ## Ação sugerida para mitigação
