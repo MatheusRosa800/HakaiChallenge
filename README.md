@@ -8,3 +8,9 @@ ameaças
 - Felipe Madeira
 - Pedro Augusto
 - Caio Vinícius
+
+## Entrega 
+Realizamos alguns Pentests no mobile app passado pela Hakai (InsecureBankv2) e fizemos alguns relatórios que estão separados por pastas neste mesmo github. Dentro de cada pasta, contem:
+- Descrição da vulnerabilidade
+- Mitigação
+- Código contra vulnerabilidade
