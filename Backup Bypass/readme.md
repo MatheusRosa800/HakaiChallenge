@@ -61,6 +61,5 @@ Assim, teremos as credenciais dentro de um xml:
 
 ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/78058eaf-e6fc-4663-bdc9-307e8c83830d/72576533-95fb-464b-844d-0ca441b3516c/Untitled.png)
 
-![.img/app_admin.png](.img/app_admin.png)
 
 ## Ação sugerida para mitigação
