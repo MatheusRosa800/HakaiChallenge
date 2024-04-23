@@ -22,7 +22,7 @@ O acesso não autorizado no sistema de backup de um aplicativo pode resultar em 
 
 A falha pode ser vista no próprio AndroidManifest.xml, com uma linha exposta com o seguinte argumento : **android:debuggable="true"** /  **android:allowBackup="true" .** Quando a configuração está  “true“ o aplicativo fica habilitado para depuração, o que significa que ele pode ser facilmente manipulado e analisado por terceiros, incluindo atacantes. Com isso, podemos manipular os dados de Backup.
 
-!manifest.png
+manifest.png
 
 Portanto precisamos criar um backup é usado para criar um backup do aplicativo “**com.android.insecurebankv2”**,  incluindo seu arquivo APK e dados compartilhados.:
 
