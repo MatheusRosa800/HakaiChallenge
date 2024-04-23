@@ -22,7 +22,7 @@ O impacto vai denpender das funcionalidades do aplitivo que estão sob acesso do
 
 Esta falha pode ser validada após o reconhecimento das atividades registradas no arquivo da liguagem de marcação androidmanifest.xml que ser consultado via debuging no JADX.
 
-![jadx_bypass](.img/jadx_bypass)
+![jadx_bypass](.img/jadx_bypass.png)
 
 Com a informação da atividade, basta executar o comando utilizando a ferramenta adb, com a seguinte comando:
 
@@ -31,7 +31,7 @@ adb shell am start -n com.android.insecurebankv2/com.android.insecurebankv2.Post
 ```
 No ambiente de teste anexado podemos verificar que o aplicativo foi para a area do cliente sem necessidade do inserir usuário e senha.
 
-![android_bypass](android_bypass)
+![android_bypass](.img/android_bypass.png)
 
 
 ## Ação sugerida para mitigação
