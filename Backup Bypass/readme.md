@@ -26,7 +26,7 @@ A falha pode ser vista no próprio AndroidManifest.xml, com uma linha exposta co
 
 Portanto precisamos criar um backup é usado para criar um backup do aplicativo “**com.android.insecurebankv2”**,  incluindo seu arquivo APK e dados compartilhados.:
 
-![.img/jadx_analise.png](.img/jadx_analise.png)
+![adbbackup](.img/adbbackup.png)
 
 ```
 adb backup -apk -shared com.android.insecurebankv2
@@ -35,11 +35,9 @@ adb backup -apk -shared com.android.insecurebankv2
 
 Ao rodarmos o comando, o adb logo pede uma autenticação. Isso ocorre porque o comando **“adb backup”** requer interação direta do usuário para garantir que o backup seja autorizado.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/78058eaf-e6fc-4663-bdc9-307e8c83830d/63112253-fcaf-4ab6-9ebf-1d59b1425d7d/Untitled.png)
+![adbbackup](.img/adbbackup.png)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/78058eaf-e6fc-4663-bdc9-307e8c83830d/0ef77caa-a4b1-4d9a-a124-9455221cffd4/Untitled.png)
-
-![.img/string_adm.png](.img/string_adm.png)
+![fullbackup](.img/fullbackup.png)
 
 Após realizar o comando, podemos cancelar a operação de backup do Android, pois ele cria um **Backup Incremental,** essa operação do Android basicamente cria um arquivo de backup temporário no formato AB (**`backup.ab`**). Este arquivo é usado para armazenar os dados que foram copiados até o **momento**:
 
@@ -59,7 +57,7 @@ cat backup.ab | (dd bs=24 count=0 skip=1; cat) | zlib-flate -uncompress > backup
 
 Assim, teremos as credenciais dentro de um xml:
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/78058eaf-e6fc-4663-bdc9-307e8c83830d/72576533-95fb-464b-844d-0ca441b3516c/Untitled.png)
+![credenciaisxml](.img/credenciaisxml.png)
 
 
 ## Ação sugerida para mitigação
