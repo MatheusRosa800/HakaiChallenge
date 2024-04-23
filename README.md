@@ -7,4 +7,4 @@ ameaças
 - Henrique Koji
 - Felipe Madeira
 - Pedro Augusto
-- Caio Viniciues
+- Caio Vinícius
