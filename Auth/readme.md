@@ -16,7 +16,7 @@ https://book.hacktricks.xyz/mobile-pentesting/android-app-pentesting
 
 ## Impacto
 
-O impacto vai denpender das funcionalidades do aplitivo que estão sob acesso do atacente não autorizado. No aplicativo em questão foi possível acessar todas os recursos disponíveis para um usuário comum.
+O impacto vai depender das funcionalidades do aplicativo que estão sob acesso do atacante não autorizado. No aplicativo em questão foi possível acessar todos os recursos disponíveis para um usuário comum.
 
 ## Prova de conceito
 
