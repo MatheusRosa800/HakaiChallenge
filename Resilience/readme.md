@@ -62,8 +62,8 @@ Ao carregar o apk modificado, no ambiente de teste pode-se perceber que a funcio
 
 Manter a integridade da plataforma com mecanismos de Anti-Debugging e Anti-Tampering.
 
-Impedir a instrumentação dinâmica que poderia permitir que um invasor modificasse o código em tempo de execução
+Impedir a instrumentação dinâmica que poderia permitir que um invasor modificasse o código em tempo de execução.
 
-Ofuscação de código e 
+Impedir a compreensão, tornando o mais difícil possível descobrir como um aplicativo funciona por meio de análise estática usando mecanismos de encriptação, ofuscação de código e packeamento.
 
 
