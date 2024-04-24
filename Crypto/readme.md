@@ -42,7 +42,7 @@ generic_x86:/data/data/com.android.insecurebankv2/shared_prefs # **ls**
 
 ![.img/su.png](.img/su.png)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/78058eaf-e6fc-4663-bdc9-307e8c83830d/e1b01eb5-3ea0-4202-bd06-d36236bd15d2/Untitled.png)
+![.img/ls.png](.img/ls.png)
 
 Como visto, podemos observar que há um SharedPreferences.xml, que possivelmente pode haver dados sensíveis.
 
@@ -53,7 +53,7 @@ generic_x86:/data/data/com.android.insecurebankv2/shared_prefs # cat mySharedPre
 
 Assim, teremos uma  “Senha super secreta “ e um “Username criptografado”
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/78058eaf-e6fc-4663-bdc9-307e8c83830d/3f927328-9d2e-43db-b346-2089be377373/Untitled.png)
+![.img/cat.png](.img/cat.png)
 
 Vamos extrair o conteúdo do arquivo:
 
@@ -63,14 +63,12 @@ unzip InsecureBankv2.apk
 
 Podemos analisar o arquivo: 
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/78058eaf-e6fc-4663-bdc9-307e8c83830d/dbee2932-7bf1-421c-8da9-c6860ceed9c6/Untitled.png)
-
 Ou seja, temos a chave AES, logo, podemos  “decodar” a senha e o usuário que estava dentro do XML.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/78058eaf-e6fc-4663-bdc9-307e8c83830d/c356fe65-78b1-45b0-aa9b-a7ed5a09c4ab/Untitled.png)
+![.img/chaveres.png](.img/chaveres.png)
 
 Correlacionamos com o usuário e logamos no sistema.
 
-![.img/credenciaisxml.png](.img/credenciaisxml.png)
+![.img/jack.png](.img/jack.png)
 
 ## Ação sugerida para mitigação
