@@ -14,6 +14,9 @@ https://mas.owasp.org/MASTG/techniques/android/MASTG-TECH-0014/
 
 https://book.hacktricks.xyz/mobile-pentesting/android-app-pentesting
 
+https://mas.owasp.org/MASVS/07-MASVS-AUTH/
+
+
 ## Impacto
 
 O impacto vai depender das funcionalidades do aplicativo que estão sob acesso do atacante não autorizado. No aplicativo em questão foi possível acessar todos os recursos disponíveis para um usuário comum.
@@ -35,5 +38,7 @@ No ambiente de teste anexado podemos verificar que o aplicativo foi para a area 
 
 
 ## Ação sugerida para mitigação
+
+Problemas de autenticação são vulnerabilidades de segurança encontrados em grande parte de dispositivos móveis eles ocupam consistentemente o segundo lugar no Top 10 da OWASP. pensando nisso, mostramos forma de mitigar falhas na autenticação de aplicativos.
 
 
