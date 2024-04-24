@@ -39,10 +39,12 @@ No ambiente de teste anexado podemos verificar que o aplicativo foi para a area 
 
 # Ação sugerida para mitigação
 
-Problemas de autenticação são vulnerabilidades de segurança encontrados em grande parte de dispositivos móveis eles ocupam consistentemente o segundo lugar no Top 10 da OWASP. Pensando nisso, mostramos forma de mitigar falhas na autenticação de aplicativos.
+Problemas de autenticação são vulnerabilidades de segurança encontrados em grande parte de dispositivos móveis, eles ocupam consistentemente o segundo lugar no Top 10 da OWASP. Pensando nisso, mostramos forma de mitigar falhas na autenticação de aplicativos.
 
 ## Autenticação via servidor
 
-Exigir a autenticação do usuário para aplicativos que se conectam a um endpoint remoto e garantir que essa comunicação seja feita de forma segura e confiavél.
+Exigir a autenticação do usuário para aplicativos que se conectam a um endpoint remoto e garantir que essa comunicação seja feita de forma segura e confiavél.   
+
+Aplicação destes mecanismos de autenticação devem estar no endpoint remoto.
 
 
