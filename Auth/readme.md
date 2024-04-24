@@ -43,7 +43,7 @@ Problemas de autenticação são vulnerabilidades de segurança encontrados em g
 
 ## Autenticação via servidor
 
-Exigir a autenticação do usuário para aplicativos que se conectam a um endpoint remoto e garantir que essa comunicação seja feita de forma segura e confiavél.   
+Exigir a autenticação do usuário para aplicativos que se conectam a um endpoint remoto e garantir que essa comunicação seja feita de forma criptografada.  
 
 Aplicação destes mecanismos de autenticação devem estar no endpoint remoto.
 
