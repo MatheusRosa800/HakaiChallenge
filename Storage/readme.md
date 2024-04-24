@@ -64,4 +64,6 @@ Assim, teremos as credenciais dentro de um xml:
 
 # Mitigação
 
+O aplicativo emprega criptografia nos dados sensíveis como por exemplo o ***backup***
+
 
