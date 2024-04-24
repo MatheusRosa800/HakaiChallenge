@@ -14,6 +14,8 @@ https://mas.owasp.org/MASTG/techniques/android/MASTG-TECH-0014/
 
 https://xdaforums.com/t/backup-restore-your-appdata-savegame-between-phones-adb-shell-non-root.4378323/
 
+https://mas.owasp.org/MASVS/05-MASVS-STORAGE/
+
 ## Impacto
 
 O acesso não autorizado no sistema de backup de um aplicativo pode resultar em comprometimento da integridade dos dados armazenados no aplicativo, vazamento de informações sensíveis e potencial violação de privacidade dos usuários. Além disso, o acesso não autorizado pode levar a atividades maliciosas, como fraude, roubo de identidade e acesso não autorizado a recursos protegidos.
@@ -59,3 +61,5 @@ Assim, teremos as credenciais dentro de um xml:
 
 
 ## Mitigação
+
+
