@@ -71,4 +71,6 @@ Correlacionamos com o usuário e logamos no sistema.
 
 ![.img/jack.png](.img/jack.png)
 
-## Ação sugerida para mitigação
+## Mitigação
+
+
