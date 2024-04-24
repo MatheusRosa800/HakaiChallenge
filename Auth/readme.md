@@ -39,6 +39,6 @@ No ambiente de teste anexado podemos verificar que o aplicativo foi para a area 
 
 ## Ação sugerida para mitigação
 
-Problemas de autenticação são vulnerabilidades de segurança encontrados em grande parte de dispositivos móveis eles ocupam consistentemente o segundo lugar no Top 10 da OWASP. pensando nisso, mostramos forma de mitigar falhas na autenticação de aplicativos.
+Problemas de autenticação são vulnerabilidades de segurança encontrados em grande parte de dispositivos móveis eles ocupam consistentemente o segundo lugar no Top 10 da OWASP. Pensando nisso, mostramos forma de mitigar falhas na autenticação de aplicativos.
 
 
