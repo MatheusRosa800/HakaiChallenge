@@ -16,6 +16,8 @@ https://www.ragingrock.com/AndroidAppRE/
 
 https://apktool.org/
 
+https://mas.owasp.org/MASVS/11-MASVS-RESILIENCE/
+
 ## Impacto
 
 Com o acesso adminsitrativo no aplicativo, o atacante pode criar usuários não autorizados sem cumprir os requisitos definidos pela empresa detentora dos direitos do aplicativo.
