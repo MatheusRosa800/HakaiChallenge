@@ -56,4 +56,4 @@ Ao carregar o apk modificado, no ambiente de teste pode-se perceber que a funcio
 
 ![app_admin](.img/app_admin.png)
 
-## Ação sugerida para mitigação
+#Mitigação
