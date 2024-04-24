@@ -37,7 +37,7 @@ No ambiente de teste anexado podemos verificar que o aplicativo foi para a area 
 ![android_bypass](.img/android_bypass.png)
 
 
-# Ação sugerida para mitigação
+# Mitigação
 
 Problemas de autenticação são vulnerabilidades de segurança encontrados em grande parte de dispositivos móveis, eles ocupam consistentemente o segundo lugar no Top 10 da OWASP. Pensando nisso, mostramos forma de mitigar falhas na autenticação de aplicativos.
 
