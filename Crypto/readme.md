@@ -22,18 +22,12 @@ A conclusão de que a vulnerabilidade de criptografia está presente em um deter
 
 Portanto precisamos nos conectar no emulador, e interagir com o S.O
 
-![.img/manifest.png](.img/manifest.png)
-
 ```
 adb shell
 
 ```
 
 Ao rodarmos o comando, o adb shell, temos acesso ao Android, e seguido as requisições de chamada, do Manifest, chegamos ate o **‘shared_prefs’,** logo, precisamos acessar esse diretório para explorar ainda mais a vulnerabilidade
-
-![.img/adbbackup.png](.img/adbbackup.png)
-
-![.img/fullbackup.png](.img/fullbackup.png)
 
 Vamos utilizar o comando para ir no diretório desejado dentro do sistema Android e verificar o que há no diretório:
 
@@ -46,7 +40,7 @@ generic_x86:/data/data/com.android.insecurebankv2/shared_prefs # **ls**
 
 ```
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/78058eaf-e6fc-4663-bdc9-307e8c83830d/d8502e06-40ff-4b43-8ce9-1e46e51619c0/Untitled.png)
+![.img/su.png](.img/su.png)
 
 ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/78058eaf-e6fc-4663-bdc9-307e8c83830d/e1b01eb5-3ea0-4202-bd06-d36236bd15d2/Untitled.png)
 
