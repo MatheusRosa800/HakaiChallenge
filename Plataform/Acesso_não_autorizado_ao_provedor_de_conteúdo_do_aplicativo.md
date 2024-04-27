@@ -27,11 +27,11 @@ Com acesso ao arquivo AndroidManifest.xml é possóvel identificar a existencia 
 
 A verificação anterior possibilita encontrar a localização da classe por meio da ferramenta de pesquisa no JadX. 
 
-![content_show](/home/s0rry/Desktop/cpweb/content_show.png)
+![content_show](,img/content_show.png)
 
 Dessa forma se obtem a URI para testar o acesso e tentar obter algumas informações compartilhadas pelo aplicativo.
 
-![content_provider](/home/s0rry/Desktop/cpweb/content_provider.png)
+![content_provider](.img/content_provider.png)
 
 O levantamento das informações possibilita a consulta com a ferramenta **adb** com o seginte comando:
 
@@ -41,6 +41,6 @@ adb shell content query --uri content://com.android.insecurebankv2.TrackUserCont
 
 O retorno será a lista de usuários e seus respectivos ids. 
 
-![content_provider1](/home/s0rry/Desktop/cpweb/content_provider1.png)
+![content_provider1](.img/content_provider1.png)
 
 ## Ação sugerida para mitigação
