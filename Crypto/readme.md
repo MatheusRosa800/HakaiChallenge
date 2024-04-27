@@ -12,6 +12,8 @@ https://blog.quarkslab.com/android-data-encryption-in-depth.html
 
 https://mas.owasp.org/MASTG/tests/android/MASVS-CRYPTO/MASTG-TEST-0013/
 
+https://mas.owasp.org/MASVS/06-MASVS-CRYPTO/
+
 ## Impacto
 
 O impacto da vulnerabilidade de criptografia fraca no aplicativo InsecureBankv2 pode ser significativo e abrangente, como o roubo de credenciais, perde de confiança de usuários, com acesso a informações pessoais dos usuários, os invasores podem realizar atividades de roubo de identidade, como abrir contas falsas em nome dos usuários ou realizar transações financeiras fraudulentas. O que se encaixa exatamente em nosso cenário, afinal, é um banco.
