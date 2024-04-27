@@ -67,3 +67,37 @@ Impedir a instrumentação dinâmica que poderia permitir que um invasor modific
 Impedir a compreensão, tornando o mais difícil possível descobrir como um aplicativo funciona por meio de análise estática usando mecanismos de encriptação, ofuscação de código e packeamento.
 
 
+# Mitigação baseada em códigos
+
+## Checking the debuggable flag in Application info
+In the manifest file, the android.debuggable attribute determines whether the JDWP
+thread should start for the application. It is possible to retrieve its value programmatically by using the ApplicationInfo object. If the flag is set, the manifest has been tampered with and now permits debugging.
+
+```
+public static boolean isDebuggable(Context context){
+return ((context.getApplicationContext().getApplicationInfo().flags &
+ApplicationInfo.FLAG_DEBUGGABLE) != 0);
+}
+```
+
+## Checking if a JDWP debugger is attached
+The android.os.Debug class offers a method to determine if a debugger is connected.
+
+```
+public static boolean detectDebugger() {
+return Debug.isDebuggerConnected();
+}
+```
+
+## Checking TracerPid
+if we inspect the status file of the debugged process, located at either /proc/<pid>/status or /proc/self/status, we can see that the TracerPid field has a value different from 0, indicating that the process is being debugged.
+
+```
+$ adb shell ps -A | grep com.example.hellojni
+u0_a271 11657 573 4302108 50600 ptrace_stop 0 t com.example.hellojni
+$ adb shell cat /proc/11657/status | grep -e "^TracerPid:" | sed
+"s/^TracerPid:\t//"
+TracerPid: 11839
+$ adb shell ps -A | grep 11839
+u0_a271 11839 11837 14024 4548 poll_schedule_timeout 0 S lldb-server
+```
