@@ -21,15 +21,15 @@ A execução de um aplicativo em uma plataforma com super usuário pode permitir
 
 Em sua forma original o aplicativo levanta o alerta de que está sendo rodado em um dispositivo **rootado**. 
 
-![rooted_device](rooted_device.png)
+![rooted_device](.img/rooted_device.png)
 
 Após decompilar o código fonte com a ferramenta JadX, é possível localizar esta função por meio da funcionalidade de busca, inserindo exatemente a mesma mensagem mostrada no aplicativo.
 
-![msg_root](msg_root.png)
+![msg_root](.img/msg_root.png)
 
 Assim é possível encontrrar o função responsável pela verificação do dispositivo.
 
-![func_root](func_root.png)
+![func_root](.img/func_root.png)
 
 Para conseguir alterar o código fonte é necessário decompilar com a ferramenta apktool com seguinte comando:
 
@@ -38,7 +38,7 @@ apktool d InsecureBankv2.pk
 ```
 Nos diretórios gerados é necessário localizar o código onde se encontra a declaração. Em seguida basta alterar o código, pulando a etapa de verificação para a aprovação do dispositivo.
 
-![code_root](code_root.png)
+![code_root](.img/code_root.png)
 
 O aplicativo pode ser recompilado com a mesma ferramenta passando a pasta gerada como alvo com o seguinte comando:
 
@@ -58,7 +58,7 @@ jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore patch.keystore 
 
 Ao instalar o aplicativo alterado e realizar o loginpodemos perceber agora que a menssagem impressa indica que não foi identificado a execução do aplicativo em um dispositivo **rootado**.
 
-![not_rooted](not_rooted.png)
+![not_rooted](.img/not_rooted.png)
 
 
 ## Ação sugerida para mitigação
