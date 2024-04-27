@@ -1,4 +1,4 @@
-# Interceptação de dados transmitidos por protocólo inseguro
+# Interceptação de dados transmitidos por protocolo inseguro
 
 ## Descrição
 
