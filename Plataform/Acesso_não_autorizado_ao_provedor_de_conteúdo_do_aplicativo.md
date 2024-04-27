@@ -41,6 +41,6 @@ adb shell content query --uri content://com.android.insecurebankv2.TrackUserCont
 
 O retorno será a lista de usuários logados no aplicativo e seus respectivos ids. 
 
-![content_provider1](.img/content_provider1.png)
+![content_provider1](.img/content_provider2.png)
 
 ## Ação sugerida para mitigação
