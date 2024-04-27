@@ -23,7 +23,7 @@ A vulnerabilidade pode estar associada a vazamento de dados, exposição não in
 
 Com acesso ao arquivo AndroidManifest.xml é possóvel identificar a existencia de um receptor de broadcast no aplicativo.
 
-!content_provider0(/home/s0rry/Desktop/cpweb/content_provider0.png)
+![content_provider0](.img/content_provider0.png)
 
 A verificação anterior possibilita encontrar a localização da classe por meio da ferramenta de pesquisa no JadX. 
 
