@@ -47,4 +47,7 @@ Exigir a autenticação do usuário para aplicativos que se conectam a um endpoi
 
 Aplicação destes mecanismos de autenticação devem estar no endpoint remoto.
 
+# Mitigação baseada em código 
 
+1) Set the permission for the application or set the android:exported=false.
+2) If you only intend to use exported components between related apps under your control, use android:protectionLevel=”signature” in the xml manifest to restrict access to applications signed by you.
