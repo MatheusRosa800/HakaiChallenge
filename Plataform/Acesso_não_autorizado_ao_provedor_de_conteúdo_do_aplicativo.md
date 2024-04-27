@@ -45,4 +45,4 @@ O retorno será a lista de usuários logados no aplicativo e seus respectivos id
 
 ![content_provider1](.img/content_provider2.png)
 
-## Ação sugerida para mitigação
+## Mitigação
