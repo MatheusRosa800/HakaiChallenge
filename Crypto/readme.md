@@ -75,4 +75,10 @@ Correlacionamos com o usuário e logamos no sistema.
 
 ## Mitigação
 
+O aplicativo realiza o gerenciamento de chaves de acordo com as melhores práticas.
+
+Mesmo a criptografia mais forte seria comprometida por um gerenciamento inadequado de chaves, que é o nosso caso neste exemplo.
+
+E isso abrange o gerenciamento de chaves da criptografia durante todo o seu ciclo, incluindo geração, armazenamento e proteção de chaves.
+
 
