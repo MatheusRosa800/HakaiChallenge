@@ -14,6 +14,8 @@ https://developer.android.com/guide/topics/providers/content-provider-basics
 
 https://medium.com/@paritasampa95/content-provider-in-android-07d499cf7539
 
+https://mas.owasp.org/MASVS/09-MASVS-PLATFORM/
+
 
 ## Impacto
 
