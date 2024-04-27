@@ -33,7 +33,7 @@ adb shell am broadcast -a theBroadcast -n com.android.insecurebankv2/.MyBroadCas
 ```
 No dispositivo alvo pode-se verificar que uma mensagem foi recebida com as credenciais da vítma
 
-![msg_pass](.img/msg_pass.png)
+![pass_reset](.img/pass_reset.png)
 
 
 ## Ação sugerida para mitigação
