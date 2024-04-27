@@ -27,7 +27,7 @@ Com acesso ao arquivo AndroidManifest.xml é possóvel identificar a existencia 
 
 A verificação anterior possibilita encontrar a localização da classe por meio da ferramenta de pesquisa no JadX. 
 
-![content_show](,img/content_show.png)
+![content_show](.img/content_show.png)
 
 Dessa forma se obtem a URI para testar o acesso e tentar obter algumas informações compartilhadas pelo aplicativo.
 
