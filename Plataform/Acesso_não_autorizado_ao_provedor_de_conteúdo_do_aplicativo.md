@@ -39,7 +39,7 @@ O levantamento das informações possibilita a consulta com a ferramenta **adb**
 adb shell content query --uri content://com.android.insecurebankv2.TrackUserContentProvider/trackerusers
 ```
 
-O retorno será a lista de usuários e seus respectivos ids. 
+O retorno será a lista de usuários logados no aplicativo e seus respectivos ids. 
 
 ![content_provider1](.img/content_provider1.png)
 
