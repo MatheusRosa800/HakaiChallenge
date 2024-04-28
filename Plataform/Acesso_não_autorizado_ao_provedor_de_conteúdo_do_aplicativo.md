@@ -52,3 +52,5 @@ O retorno será a lista de usuários logados no aplicativo e seus respectivos id
 A segurança dos aplicativos móveis depende muito de sua interação com a plataforma móvel, o que muitas vezes envolve a exposição intencional de dados ou funcionalidades por meio do uso de mecanismos de inter-process communication (IPC)-*mecanismo que permite que dois ou mais processos realizem a troca de dados entre si*.
 
 E a mitigação se deve a garantir que todas essas interações envolvendo mecanismos de IPC aconteçam de forma segura.
+
+
