@@ -23,6 +23,6 @@ adb logcat
 ```
 Depois disso, basta preencher o formulário de login com a opção de inserir as informações automáticamente. Nos registro interceptados pela shell é possível ver os dados do usuário em texto simples.
 
-![log_cat](log_cat.png)
+![log_cat](.img/log_cat.png)
 
 ## Ação sugerida para mitigação
