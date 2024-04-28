@@ -20,7 +20,7 @@ A vulnerabilidade pode culminar no vazamento de credenciais, sequestro de conta 
 
 ## Prova de conceito
 
-Após decompilar o apk na ferramenta JadX, é possível verificar receptor de broadcast declarado. 
+Após Descompilador o apk na ferramenta JadX, é possível verificar receptor de broadcast declarado. 
 
 ![broadcast_reciver](.img/broadcast_reciver.png)
 
