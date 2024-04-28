@@ -83,12 +83,18 @@ val raspObserver = object : RaspObserver {
 
 ### BLOCKING SCREENSHOTS
 
+Configuration
 ```
 val raspConfig = RaspConfig.Builder()
     .screenshot(BlockConfig)
     // configuration of other RASP features
     .build()
 ```
+Available values of BlockConfig:
+
+NoAction-indica que as capturas de tela não serão bloqueadas automaticamente
+
+Block-indica que as capturas de tela serão bloqueadas automaticamente
 
 
 
