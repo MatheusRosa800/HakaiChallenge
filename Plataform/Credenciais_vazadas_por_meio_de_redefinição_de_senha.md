@@ -14,6 +14,8 @@ https://book.hacktricks.xyz/mobile-pentesting/android-app-pentesting
 
 https://mas.owasp.org/MASVS/09-MASVS-PLATFORM/
 
+https://mas.owasp.org/MASVS/07-MASVS-AUTH/
+
 ## Impacto
 
 A vulnerabilidade pode culminar no vazamento de credenciais, sequestro de conta e roubo de dados pessoais.
