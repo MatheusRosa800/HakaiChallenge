@@ -18,7 +18,7 @@ O impacto da vulnerabilidade do cache do teclado Android implica que em um cená
 
 Primeiro, para explorarmos essa vulnerabilidade, temos que tentar logar com qualquer username e usar a opção  **“Add to dictionary”** para salvar no cache.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/78058eaf-e6fc-4663-bdc9-307e8c83830d/cd0014b9-5ef9-44c3-bb34-83686e72c1a8/Untitled.png)
+![.img/logincache.png](.img/logincache.png)
 
 Após tentarmos logar, vamos dar uma olhada no  “***user*_dict.db”,** que seria o database de usuários do aplicativo:
 
