@@ -73,9 +73,9 @@ val raspConfig = RaspConfig.Builder()
 
 Valores para DetectionConfig:
 
-*Notify*-indica que o compartilhamento de tela será detectado automaticamente e os observadores serão notificados.
+**Notify**-indica que o compartilhamento de tela será detectado automaticamente e os observadores serão notificados.
 
-*Exit(exitUrl:String?)*-indica que o compartilhamento de tela será detectado automaticamente e o aplicativo será encerrado quando um compartilhamento de tela ou uma alteração transitória na adição de exibição for detectada automaticamente.
+**Exit(exitUrl:String?)**-indica que o compartilhamento de tela será detectado automaticamente e o aplicativo será encerrado quando um compartilhamento de tela ou uma alteração transitória na adição de exibição for detectada automaticamente.
 
 Observador
 ```
@@ -99,9 +99,9 @@ val raspConfig = RaspConfig.Builder()
 ```
 Valores para BlockConfig:
 
-*Block* -indica que as capturas de tela serão bloqueadas automaticamente
+**Block** -indica que as capturas de tela serão bloqueadas automaticamente
 
-**BlockConfig.Block** É o padrão para o bloqueio da captura.
+
 
 
 
