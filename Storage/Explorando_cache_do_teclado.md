@@ -44,3 +44,5 @@ Podemos observar o usuário digitado anteriormente:
 ![.img/cachefinal.png](.img/cachefinal.png)
 
 ## Ação sugerida para mitigação
+
+Informações confidenciais não devem ser armazenadas em banco de dados SQLite não criptografados. A biblioteca SQLCipher pode ser usada para a criptografia dos dados necessáros com a chave de recuperação armazenada no servidor.
