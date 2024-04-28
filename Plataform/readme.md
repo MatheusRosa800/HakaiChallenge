@@ -1,4 +1,4 @@
-# Plataform
+# Platform
 
 [Acesso não autorizado ao provedor de conteúdo do aplicativo](Acesso_não_autorizado_ao_provedor_de_conteúdo_do_aplicativo.md)
 
