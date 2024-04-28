@@ -20,14 +20,14 @@ O acesso legítimo com contas de desenvolvimento pode possibilitar a algum ataca
 
 Depois de compilar o apk com a ferramenta JadX, se faz uma busca no mecanismo atrá de palavra como ***"admin"***.
 
-![dev_admin](Resilience/.img/dev_admin.png)
+![dev_admin](.img/dev_admin.png)
 
 Nesta fase de reconhecimento, é possível verificar uma condicional que indica a existencia de um login chamado devadmin que não exige credenciais.
 
-![func_dev](Resilience/.img/code_dev.png)
+![func_dev](.img/code_dev.png)
 
 Ao testa-la no formulário foi possível ter acesso a uma área de cliente.
 
-![login_admin](.img/.img/login_admin.pngdev_login.png)
+![login_admin](.img/dev_login.png)
 
 ## Ação sugerida para mitigação
