@@ -80,7 +80,7 @@ val raspObserver = object : RaspObserver {
     // handle detection of other RASP features
 }
 ```
-### 
+## 
 ### BLOCKING SCREENSHOTS
 
 Configuration
