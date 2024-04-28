@@ -59,6 +59,8 @@ E garantir que esses dados não sejam vazados involuntariamente devido a mecanis
 
 ## Código de exemplo para mitigação
 
+### SCREEN SHARING DETECTION
+
 
 
 
