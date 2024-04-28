@@ -61,4 +61,4 @@ Ao instalar o aplicativo alterado e realizar o loginpodemos perceber agora que a
 ![not_rooted](.img/not_rooted.png)
 
 
-## Ação sugerida para mitigação
+## Mitigação sugerida
