@@ -81,6 +81,15 @@ val raspObserver = object : RaspObserver {
 }
 ```
 
+### BLOCKING SCREENSHOTS
+
+```
+val raspConfig = RaspConfig.Builder()
+    .screenshot(BlockConfig)
+    // configuration of other RASP features
+    .build()
+```
+
 
 
 
