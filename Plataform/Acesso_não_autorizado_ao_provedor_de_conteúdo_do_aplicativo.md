@@ -20,6 +20,8 @@ https://embarcados.com.br/comunicacao-entre-processos/
 
 https://developers.wultra.com/components/malwarelytics-android/develop/documentation/Screen-Sharing-Detection
 
+https://developers.wultra.com/components/malwarelytics-android/develop/documentation/Blocking-Screenshots
+
 
 ## Impacto
 
