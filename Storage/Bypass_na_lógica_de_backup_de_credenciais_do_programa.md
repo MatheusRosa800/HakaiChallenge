@@ -64,7 +64,7 @@ Assim, teremos as credenciais dentro de um xml:
 
 # Mitigação
 
-O aplicativo emprega criptografia nos dados confidenciais que são armazenados localmente, como por exemplo o ***backup***.
+O aplicativo emprega criptografia forte nos dados confidenciais que são armazenados localmente, como por exemplo o ***backup***. Também emprega o uso de par de chaves e o correto armazenamento das mesmas.
 
 Os locais de armazenamento devem ser privados do aplicativo, sendo possível apenas acessar através do aplicativo.
 
