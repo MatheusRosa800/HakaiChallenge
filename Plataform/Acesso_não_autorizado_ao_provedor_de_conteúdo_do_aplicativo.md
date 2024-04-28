@@ -49,11 +49,17 @@ O retorno será a lista de usuários logados no aplicativo e seus respectivos id
 
 ## Ação sugerida para mitigação
 
-A segurança dos aplicativos móveis depende muito de sua interação com a plataforma móvel, o que muitas vezes envolve a exposição intencional de dados(senhas, cartão de crédito) ou funcionalidades por meio do uso de mecanismos de inter-process communication (IPC)-*mecanismo que permite que dois ou mais processos realizem a troca de dados entre si*.
+A segurança dos aplicativos móveis depende muito de sua interação com a plataforma móvel, o que muitas vezes envolve a exposição **intencional** de dados(senhas, cartão de crédito) ou funcionalidades por meio do uso de mecanismos de inter-process communication (IPC)-*mecanismo que permite que dois ou mais processos realizem a troca de dados entre si*.
 
 Que estes são fornecidos pela plataforma e WebViews para aprimorar a experiência do usuário, porém, os mesmos podem ser explorados por invasores ou outros aplicativos instalados, comprometendo a segurança do apicativo em questão.
 
-Permitir que todas essas interações envolvendo mecanismos de IPC aconteçam de forma segura 
+A mitigação se deve a permitir que todas essas interações envolvendo mecanismos de IPC aconteçam de forma segura.
+
+E garantir que esses dados não sejam vazados involuntariamente devido a mecanismos da plataforma, como capturas de tela geradas automaticamente e gravações de tela.
+
+## Código de exemplo para mitigação
+
+
 
 
 
