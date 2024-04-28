@@ -63,7 +63,7 @@ E garantir que esses dados não sejam vazados involuntariamente devido a mecanis
 
 ### SCREEN SHARING DETECTION
 
-Configuration
+Configuração
 ```
 val raspConfig = RaspConfig.Builder()
     .screenSharing(DetectionConfig)
@@ -83,7 +83,7 @@ val raspObserver = object : RaspObserver {
 ## 
 ### BLOCKING SCREENSHOTS
 
-Configuration
+Configuração
 ```
 val raspConfig = RaspConfig.Builder()
     .screenshot(BlockConfig)
