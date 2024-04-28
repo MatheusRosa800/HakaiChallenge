@@ -58,7 +58,7 @@ Ao carregar o apk modificado, no ambiente de teste pode-se perceber que a funcio
 
 ![app_admin](.img/app_admin.png)
 
-# Mitigação sugerida
+# Ação sugerida para mitigação
 
 Manter a integridade da plataforma com mecanismos de Anti-Debugging e Anti-Tampering.
 
