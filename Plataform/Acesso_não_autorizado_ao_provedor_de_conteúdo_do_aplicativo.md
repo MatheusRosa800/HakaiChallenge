@@ -96,6 +96,7 @@ Valores para BlockConfig:
 
 *Block* -indica que as capturas de tela serão bloqueadas automaticamente
 
+*BlockConfig.Block* É o padrão para o bloqueio da captura.
 
 
 
