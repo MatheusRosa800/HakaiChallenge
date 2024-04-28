@@ -16,7 +16,7 @@ https://mas.owasp.org/MASVS/09-MASVS-PLATFORM/
 
 ## Impacto
 
-De posse do dispositivo da vítima, um atacante pode recuperar ou resetar a senha do invíduo e conseguir acesso ao aplicativo com suas informações.
+A vulnerabilidade pode culminar no vazamento de credenciais, sequestro de conta e roubo de dados pessoais.
 
 ## Prova de conceito
 
