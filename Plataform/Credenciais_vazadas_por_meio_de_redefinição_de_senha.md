@@ -12,6 +12,8 @@ https://developer.android.com/privacy-and-security/risks/insecure-broadcast-rece
 
 https://book.hacktricks.xyz/mobile-pentesting/android-app-pentesting
 
+https://mas.owasp.org/MASVS/09-MASVS-PLATFORM/
+
 ## Impacto
 
 De posse do dispositivo da vítima, um atacante pode recuperar ou resetar a senha do invíduo e conseguir acesso ao aplicativo com suas informações.
