@@ -18,6 +18,8 @@ https://mas.owasp.org/MASVS/09-MASVS-PLATFORM/
 
 https://embarcados.com.br/comunicacao-entre-processos/
 
+https://developers.wultra.com/components/malwarelytics-android/develop/documentation/Screen-Sharing-Detection
+
 
 ## Impacto
 
