@@ -16,6 +16,8 @@ https://medium.com/@paritasampa95/content-provider-in-android-07d499cf7539
 
 https://mas.owasp.org/MASVS/09-MASVS-PLATFORM/
 
+https://embarcados.com.br/comunicacao-entre-processos/
+
 
 ## Impacto
 
