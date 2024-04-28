@@ -71,6 +71,10 @@ val raspConfig = RaspConfig.Builder()
     .build()
 ```
 
+Valores para DetectionConfig:
+*Notify*-indica que o compartilhamento de tela será detectado automaticamente e os observadores serão notificados.
+*Exit(exitUrl:String?)*-indica que o compartilhamento de tela será detectado automaticamente e o aplicativo será encerrado quando um compartilhamento de tela ou uma alteração transitória na adição de exibição for detectada automaticamente.
+
 Observador
 ```
 val raspObserver = object : RaspObserver {
@@ -80,6 +84,7 @@ val raspObserver = object : RaspObserver {
     // handle detection of other RASP features
 }
 ```
+
 ## 
 ### BLOCKING SCREENSHOTS
 
