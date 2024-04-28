@@ -49,5 +49,5 @@ Aplicação destes mecanismos de autenticação devem estar no endpoint remoto.
 
 # Mitigação baseada em código 
 
-1) Set the permission for the application or set the android:exported=false.
-2) If you only intend to use exported components between related apps under your control, use android:protectionLevel=”signature” in the xml manifest to restrict access to applications signed by you.
+1) Definir a permissão para a aplicação ou definir a opção android:exported=false.
+2) Se pretender utilizar apenas componentes exportados entre aplicações relacionadas sob o seu controlo, utilize android:protectionLevel="signature" no manifesto xml para restringir o acesso a aplicações assinadas por si.
