@@ -90,11 +90,11 @@ val raspConfig = RaspConfig.Builder()
     // configuration of other RASP features
     .build()
 ```
-Available values of BlockConfig:
+Valores para BlockConfig:
 
-NoAction-indica que as capturas de tela não serão bloqueadas automaticamente
+*NoAction* -indica que as capturas de tela não serão bloqueadas automaticamente
 
-Block-indica que as capturas de tela serão bloqueadas automaticamente
+*Block* -indica que as capturas de tela serão bloqueadas automaticamente
 
 
 
