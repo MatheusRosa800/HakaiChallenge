@@ -42,3 +42,11 @@ service call clipboard 2 s16 com.android.insecurebankv2
 ![clip_transf](.img/clip_transf.png)
 
 ## Ação sugerida para mitigação
+
+Impedir a cópia para a área de transferência pode trazer grandes incovenientes para o usuário final. Por isso é necessario a implementação de um sistema de gerenciamento personalizado  de controle, sobre quais dados podem ser copiados. 
+
+Um filtro pode controlar quando e quando os dados podem ser copiados e potencialmente criptografá-los antes de serem colocados na área de transferência.
+
+### Referencias
+
+https://www.guardsquare.com/mobile-app-security-research-center/malware/copying-protection
