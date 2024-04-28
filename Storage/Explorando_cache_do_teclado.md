@@ -27,17 +27,11 @@ Após tentarmos logar, vamos dar uma olhada no  “***user*_dict.db”,** que se
 
 ```
 
-![.img/su.png](.img/su.png)
-
-![.img/ls.png](.img/ls.png)
-
 Depois de baixar o dicionário de usuários, vamos ler o database com o “**sqlite3”:**
 
 ```
 sqlite3 user_dict.db
 ```
-
-![.img/cat.png](.img/cat.png)
 
 Usamos o comando SQL para ler o cache do teclado:
 
@@ -47,8 +41,6 @@ select * from words;
 
 Podemos observar o usuário digitado anteriormente:
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/78058eaf-e6fc-4663-bdc9-307e8c83830d/3ee8f0da-bba2-4be0-9f8a-0dc5a4ae10bc/Untitled.png)
-
-![.img/jack.png](.img/jack.png)
+![.img/cachefinal.png](.img/cachefinal.png)
 
 ## Ação sugerida para mitigação
