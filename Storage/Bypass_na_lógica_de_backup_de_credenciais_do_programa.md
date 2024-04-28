@@ -62,7 +62,7 @@ Assim, teremos as credenciais dentro de um xml:
 ![credenciaisxml](.img/credenciaisxml.png)
 
 
-# Mitigação
+# Mitigação sugerida
 
 O aplicativo emprega criptografia forte nos dados confidenciais que são armazenados localmente, como por exemplo o ***backup***. Também emprega o uso de par de chaves e o correto armazenamento das mesmas.
 
