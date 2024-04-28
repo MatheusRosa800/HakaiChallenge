@@ -43,4 +43,4 @@ Como o protocolo de comunicação do aplicativo é inseguro, o atacante poderá 
 
 ## Mitigação
 
-Para garantir a confidencialidade e a integridade dos dados em trânsito na rede, deve levar em conta a criptografia e a autenticação do terminal remoto, como por meio de uso de TLS-*Transport Layer Security*
+Para garantir a confidencialidade e a integridade dos dados em trânsito na rede, deve levar em conta a criptografia e a autenticação do endpoint remoto, como por meio de uso de TLS-*Transport Layer Security*
