@@ -45,4 +45,4 @@ Como o protocolo de comunicação do aplicativo é inseguro, o atacante poderá 
 
 Para garantir a confidencialidade e a integridade dos dados em trânsito na rede, deve levar em conta a criptografia e a autenticação do endpoint remoto, como por meio de uso de TLS-*Transport Layer Security*
 
-A verificação do uso de protocolos seguros e criptografados, como por exemplo o uso de ssl na comunicação https ao invés do http que foi utilizado pelo aplicativo e permitiu a exploração.
+A verificação do uso de protocolos seguros e criptografados, como por exemplo o uso de ssl na comunicação https ao invés do http que foi utilizado pelo aplicativo e nos permitiu a exploração e a interceptação doa dados trafegados.
