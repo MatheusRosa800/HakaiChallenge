@@ -41,3 +41,5 @@ No dispositivo alvo pode-se verificar que uma mensagem foi recebida com as crede
 
 
 ## Ação sugerida para mitigação
+
+A aplicação deve forçar a autenticação antes de ser realizado o reset da senha, adicionando uma camada de autenticação para ser processada no servidor remoto.
