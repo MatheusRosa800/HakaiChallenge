@@ -73,7 +73,7 @@ Correlacionamos com o usuário e logamos no sistema.
 
 ![.img/jack.png](.img/jack.png)
 
-## Mitigação
+## Ação sugerida para mitigação
 
 O aplicativo deverá realizar o gerenciamento de chaves de acordo com as melhores práticas, pois
 mesmo a criptografia mais forte seria comprometida por um gerenciamento inadequado de chaves, que é o nosso caso neste exemplo.
