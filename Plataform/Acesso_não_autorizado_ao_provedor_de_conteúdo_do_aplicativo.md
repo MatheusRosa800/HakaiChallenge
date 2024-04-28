@@ -69,6 +69,15 @@ val raspConfig = RaspConfig.Builder()
     .build()
 ```
 
+Observador
+```
+val raspObserver = object : RaspObserver {
+    override fun onScreenSharingDetected(screenSharingDetection: ScreenSharingDetection) {
+        // handle screen sharing detection
+    }
+    // handle detection of other RASP features
+}
+```
 
 
 
