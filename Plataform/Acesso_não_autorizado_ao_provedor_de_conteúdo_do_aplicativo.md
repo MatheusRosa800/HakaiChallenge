@@ -61,6 +61,12 @@ E garantir que esses dados não sejam vazados involuntariamente devido a mecanis
 
 ### SCREEN SHARING DETECTION
 
+```
+val raspConfig = RaspConfig.Builder()
+    .screenSharing(DetectionConfig)
+    // configuration of other RASP features
+    .build()
+```
 
 
 
