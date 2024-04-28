@@ -1,4 +1,4 @@
-# Código fonte expõe credenciais de acesso deixadas pelo desenvolverdor
+# Código fonte expõe credenciais de acesso deixadas pelo desenvolvedor
 
 ## Descrição
 
