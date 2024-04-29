@@ -23,3 +23,5 @@ Realizamos alguns Pentests no aplicativo mobile pela Hakai (InsecureBankv2) e el
 - Código contra vulnerabilidade: Exemplos de código ou instruções para implementar correções ou melhorias de segurança no aplicativo.
   
 Este repositório serve como registro das análises de segurança realizadas pela nossa equipe durante a fase de desenvolvimento do RASP para o desafio Hakai.
+
+![image](https://github.com/MatheusRosa800/HakaiChallenge/assets/105319207/a2aa1d8e-6d24-48fa-a646-aaee07b63028)
