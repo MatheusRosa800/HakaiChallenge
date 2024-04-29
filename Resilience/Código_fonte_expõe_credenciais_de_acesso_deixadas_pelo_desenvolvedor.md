@@ -34,4 +34,4 @@ Ao testa-la no formulário foi possível ter acesso a uma área de cliente.
 
 O acesso a componentes internos do aplicativo pode levar ao vazamento de dados e credenciais de controle, além de permitir ao atacante, obter a compreenção do funcionamento do código. 
 
-Revisar o código, afim de evitar o esquecimento de dados de desenvolvimento e implementar técnicas de antianálise estática afim de dificultar este entendimento por parte dos atacantes.
+Revisar o código, com a finalidade de evitar o esquecimento de dados de desenvolvimento e implementar técnicas de antianálise estática para de dificultar este entendimento por parte dos atacantes.
