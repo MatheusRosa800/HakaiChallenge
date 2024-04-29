@@ -16,7 +16,10 @@ A Red Ribbon é uma organização que presta serviços relacionados à aplicaç�
 - Caio Vinícius
 
 ## Entrega 
-Realizamos alguns Pentests no mobile app passado pela Hakai (InsecureBankv2) e fizemos alguns relatórios que estão separados por pastas neste mesmo github. Dentro de cada pasta, contem:
-- Descrição da vulnerabilidade
-- Mitigação
-- Código contra vulnerabilidade
+Realizamos alguns Pentests no aplicativo mobile pela Hakai (InsecureBankv2) e elaboramos relatórios detalhados que estão organizados em pastas nomeadas por técnicas do MASTG (OWASP) e mitigações do MASVS (OWASP) neste repositório. Cada pasta contém:
+
+- Descrição da vulnerabilidade: Detalhes sobre a vulnerabilidade identificada, incluindo como ela foi explorada e potenciais impactos.
+- Mitigação: Sugestões e recomendações para mitigar ou corrigir a vulnerabilidade encontrada.
+- Código contra vulnerabilidade: Exemplos de código ou instruções para implementar correções ou melhorias de segurança no aplicativo.
+  
+Este repositório serve como registro das análises de segurança realizadas pela nossa equipe durante a fase de desenvolvimento do RASP para o desafio Hakai.
