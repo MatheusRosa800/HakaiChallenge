@@ -49,4 +49,5 @@ Podemos observar o usuário digitado anteriormente:
 
 Informações confidenciais não devem ser armazenadas em banco de dados SQLite não criptografados. A biblioteca SQLCipher pode ser usada para a criptografia dos dados necessáros com a chave de recuperação armazenada no servidor.
 
+https://github.com/OWASP/owasp-mastg/blob/master/Document/0x05d-Testing-Data-Storage.md#determining-whether-the-keyboard-cache-is-disabled-for-text-input-fields-mstg-storage-5
 
