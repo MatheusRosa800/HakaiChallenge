@@ -26,3 +26,4 @@ Depois disso, basta preencher o formulário de login com a opção de inserir as
 ![log_cat](.img/log_cat.png)
 
 ## Ação sugerida para mitigação
+
