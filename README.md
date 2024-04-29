@@ -7,7 +7,7 @@ ameaças
 ### Sobre nós
 A Red Ribbon é uma organização que presta serviços relacionados à aplicações mobile usando uma solução RASP SDK (Runtime Application Self-Protection).
 
-# Integrantes
+### Integrantes
 
 - Matheus Rosa
 - Henrique Koji
