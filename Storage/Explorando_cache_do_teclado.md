@@ -12,6 +12,7 @@ https://github.com/OWASP/owasp-mastg/blob/master/Document/0x05d-Testing-Data-Sto
 
 https://mas.owasp.org/MASVS/05-MASVS-STORAGE/
 
+
 ## Impacto
 
 O impacto da vulnerabilidade do cache do teclado Android implica que em um cenário de ataque, essa vulnerabilidade pode resultar em grandes vazamentos de dados e no bypass do login do banco.
