@@ -27,3 +27,4 @@ Depois disso, basta preencher o formulário de login com a opção de inserir as
 
 ## Ação sugerida para mitigação
 
+Mascarar as entradas dos campor de texto, substituindo estas por asteriscos ou ponto pode evitar que o aplicativo vaze os dados definidos como sensíveis.
