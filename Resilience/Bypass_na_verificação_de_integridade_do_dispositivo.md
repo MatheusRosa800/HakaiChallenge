@@ -62,3 +62,7 @@ Ao instalar o aplicativo alterado e realizar o loginpodemos perceber agora que a
 
 
 ## Ação sugerida para mitigação
+
+Implementar mecanismo anti-adulteração que garanta a integridade da funcionalidade pretendida do aplicativo, evitando modificações no código e nos recursos originais.
+
+Implementar mecanismos antianálise estática e dinâmica para dificultar a compreenção da lógica do código fonte.
