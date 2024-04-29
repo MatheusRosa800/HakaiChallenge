@@ -37,3 +37,5 @@ A Red Ribbon é uma organização que presta serviços relacionados à aplicaç�
 - **Agradecimentos:**
   Agradecemos à Hakai Security pela oportunidade de participar deste desafio e aos avaliadores por seu tempo e consideração.
 
+![image](https://github.com/MatheusRosa800/HakaiChallenge/assets/105319207/a2aa1d8e-6d24-48fa-a646-aaee07b63028)
+
