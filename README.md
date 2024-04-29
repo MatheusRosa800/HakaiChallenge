@@ -16,4 +16,7 @@ Realizamos alguns Pentests no mobile app passado pela Hakai (InsecureBankv2) e f
 - Mitigação
 - Código contra vulnerabilidade
 
+## Empresa
 ![2](https://github.com/MatheusRosa800/HakaiChallenge/assets/61835871/9d23c6d1-d2bb-4f65-9122-4ca56a2cc25d)
+
+A Red Ribbon é uma organização que presta serviços relacionados à aplicações mobile usando uma solução RASP (Runtime Application Self-Protection).
