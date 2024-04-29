@@ -4,6 +4,11 @@ ameaças
 
 ## Grupo Red Ribbon
 
+### Sobre nós
+A Red Ribbon é uma organização que presta serviços relacionados à aplicações mobile usando uma solução RASP SDK (Runtime Application Self-Protection).
+
+# Integrantes
+
 - Matheus Rosa
 - Henrique Koji
 - Felipe Madeira
@@ -15,10 +20,3 @@ Realizamos alguns Pentests no mobile app passado pela Hakai (InsecureBankv2) e f
 - Descrição da vulnerabilidade
 - Mitigação
 - Código contra vulnerabilidade
-
-## OWASP Mobile Application Security
-
-## Empresa
-![2](https://github.com/MatheusRosa800/HakaiChallenge/assets/61835871/9d23c6d1-d2bb-4f65-9122-4ca56a2cc25d)
-
-A Red Ribbon é uma organização que presta serviços relacionados à aplicações mobile usando uma solução RASP SDK (Runtime Application Self-Protection).
