@@ -1,7 +1,7 @@
 # Apresentação: Sprint 1 - Hakai Challenge
 
 ## Introdução
-Nossa equipe Red Ribbon tem o prazer de apresentar o desenvolvimento do RASP para o Hakai Challenge. Este desafio irá proporcionou uma oportunidade única de explorar e mitigar vulnerabilidades em aplicativos móveis, contribuindo para a segurança digital.
+Nossa equipe Red Ribbon tem o prazer de apresentar o desenvolvimento do RASP para o Hakai Challenge. Este desafio irá proporcionar uma oportunidade de explorar e mitigar vulnerabilidades em aplicativos móveis, contribuindo para a segurança digital.
 
 ## Grupo Red Ribbon
 - **Membros da Equipe:**
@@ -31,7 +31,7 @@ A Red Ribbon é uma organização que presta serviços relacionados à aplicaç�
 
 ## Conclusão
 - **Recapitulação:**
-  - O estudo em cima do *InsecureBanckV2* disponibilizado pela Hakai Security foi uma experiência valiosa.
+  - O estudo em cima do *InsecureBankV2* disponibilizado pela Hakai Security foi uma experiência valiosa.
   - Reconhecimento da importância contínua do monitoramento e atualização do RASP para enfrentar novas ameaças.
 
 - **Agradecimentos:**
