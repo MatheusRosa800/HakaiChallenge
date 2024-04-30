@@ -14,11 +14,11 @@ https://www.kali.org/tools/jadx/
 
 ## Impacto
 
-O acesso legítimo com contas de desenvolvimento pode possibilitar a algum atacante ações que violam os principios de nãorepudio e sequestro de identidade nas atividades do aplicativo.
+O acesso legítimo com contas de desenvolvimento pode possibilitar a algum atacante ações que violam os princípios de não repudio e sequestro de identidade nas atividades do aplicativo.
 
 ## Prova de conceito
 
-Depois de compilar o apk com a ferramenta JadX, se faz uma busca no mecanismo atrá de palavra como ***"admin"***.
+Depois de compilar o apk com a ferramenta JadX, se faz uma busca no mecanismo atrás de palavras como ***"admin"***.
 
 ![dev_admin](.img/dev_admin.png)
 
