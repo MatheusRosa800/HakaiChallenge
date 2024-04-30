@@ -69,9 +69,10 @@ Impedir a compreensão, tornando o mais difícil possível descobrir como um apl
 
 # Mitigação baseada em códigos
 
-## Checking the debuggable flag in Application info
+## Checando a debuggable flag no Application info
+No arquivo manifest, o atributo android.debuggable determina se a thread JDWP deve ser iniciada para a aplicação. é possivel 
 In the manifest file, the android.debuggable attribute determines whether the JDWP
-thread should start for the application. It is possible to retrieve its value programmatically by using the ApplicationInfo object. If the flag is set, the manifest has been tampered with and now permits debugging.
+thread should start for the application. É possível recuperar seu valor programaticamente usando o objeto ApplicationInfo. Se a flag estiver definida, o manifesto foi adulterado e agora permite a depuração.
 
 ```
 public static boolean isDebuggable(Context context){
@@ -80,8 +81,8 @@ ApplicationInfo.FLAG_DEBUGGABLE) != 0);
 }
 ```
 
-## Checking if a JDWP debugger is attached
-The android.os.Debug class offers a method to determine if a debugger is connected.
+## Verificando se o debugger JDWP esta anexado
+A classe android.os.Debug oferece um metodo que determina se há algum debugger esta conectado
 
 ```
 public static boolean detectDebugger() {
@@ -89,8 +90,8 @@ return Debug.isDebuggerConnected();
 }
 ```
 
-## Checking TracerPid
-if we inspect the status file of the debugged process, located at either /proc/<pid>/status or /proc/self/status, we can see that the TracerPid field has a value different from 0, indicating that the process is being debugged.
+## Checando TracerPid
+Se inspecionarmos o status file do processo debugado, localizado ambos em /proc/<pid>/status ou /proc/self/status, podemos ver que o campo TracerPid tem um valor diferente de 0, indicando que o processo esta sendo debugado
 
 ```
 $ adb shell ps -A | grep com.example.hellojni
