@@ -29,7 +29,7 @@ O retorno vai indicar o nome do processo alvo, filtrado pelo termo **insecure**.
 
 ![clip_chell](.img/clip_shell.png)
 
-Essa informação é utilizada para alterar o usuário atual para o processo idicado.
+Essa informação é utilizada para alterar o usuário atual para o processo indicado.
 
 ![clip_process](.img/clip_process.png)
 
@@ -43,7 +43,7 @@ service call clipboard 2 s16 com.android.insecurebankv2
 
 ## Ação sugerida para mitigação
 
-Impedir a cópia para a área de transferência pode trazer grandes incovenientes para o usuário final. Por isso é necessario a implementação de um sistema de gerenciamento personalizado  de controle, sobre quais dados podem ser copiados. 
+Impedir a cópia para a área de transferência pode trazer grandes incovenientes para o usuário final. Por isso é necessario a implementação de um sistema de gerenciamento personalizado de controle, sobre quais dados podem ser copiados. 
 
 Um filtro pode controlar aonde e quando os dados podem ser copiados e potencialmente criptografá-los antes de serem colocados na área de transferência.
 
