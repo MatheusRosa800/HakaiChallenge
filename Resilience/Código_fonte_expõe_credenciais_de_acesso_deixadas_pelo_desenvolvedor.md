@@ -2,7 +2,7 @@
 
 ## Descrição
 
-A possibilidade de decopilação do código fonte pode levar a conseguir credenciais para acesso deixadas pelo desenvolvedor. Isso permite que qualquer pessoa sem registro, mas de acesso ao código fonte, consiga uma forma legítima, mas não autorizada a area do cliente.
+A possibilidade de descompilação do código fonte pode levar a conseguir credenciais para acesso deixadas pelo desenvolvedor. Isso permite que qualquer pessoa sem registro, mas de acesso ao código fonte, consiga uma forma legítima, mas não autorizada a area do cliente.
 
 ## Referências
 
