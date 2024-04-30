@@ -25,4 +25,4 @@ Realizamos alguns Pentests no aplicativo mobile pela Hakai (InsecureBankv2) e el
 Este repositório serve como registro das análises de segurança realizadas pela nossa equipe durante a fase de desenvolvimento do RASP para o desafio Hakai.
 
 <img src="2.png" alt="Texto Alternativo" width="300px">
-<img src="(https://github.com/MatheusRosa800/HakaiChallenge/assets/127846261/7b2b4bdc-5795-43bd-bd1d-58c15e600a69)" alt="Texto Alternativo" width="300px">
+<img src="3.png" alt="Texto Alternativo" width="300px">
