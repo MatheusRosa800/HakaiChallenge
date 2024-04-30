@@ -28,7 +28,7 @@ A falha pode ser vista no próprio AndroidManifest.xml, com uma linha exposta co
 
 ![manifesto](.img/manifest.png)
 
-Portanto precisamos criar um backup é usado para criar um backup do aplicativo “**com.android.insecurebankv2”**,  incluindo seu arquivo APK e dados compartilhados.:
+Portanto precisamos criar um backup é usado para criar um backup do aplicativo “**com.android.insecurebankv2”**,  incluindo seu arquivo APK e dados compartilhados:
 
 ```
 adb backup -apk -shared com.android.insecurebankv2
