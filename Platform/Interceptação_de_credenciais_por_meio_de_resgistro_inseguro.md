@@ -16,15 +16,15 @@ Com acesso ao dispositivo da vítima o atacante pode recuperar suas credenciais 
 
 ## Prova de conceito
 
-Com o disposistivo alvo funcionando e conectado na maquina de ataque basta inciar uma escuta por meio da ferramenta de debugger do android com a seguinte comando:
+Com o disposistivo alvo funcionando e conectado na máquina de ataque basta inciar uma escuta por meio da ferramenta de debugger do android com a seguinte comando:
 
 ```
 adb logcat
 ```
-Depois disso, basta preencher o formulário de login com a opção de inserir as informações automáticamente. Nos registro interceptados pela shell é possível ver os dados do usuário em texto simples.
+Depois disso, basta preencher o formulário de login com a opção de inserir as informações automaticamente. Nos registros interceptados pela shell é possível ver os dados do usuário em texto pleno.
 
 ![log_cat](.img/log_cat.png)
 
 ## Ação sugerida para mitigação
 
-Mascarar as entradas dos campor de texto, substituindo estas por asteriscos ou ponto pode evitar que o aplicativo vaze os dados definidos como sensíveis.
+Mascarar as entradas dos campos de texto, substituindo estas por asteriscos ou pontos pode evitar que o aplicativo vaze os dados definidos como sensíveis.
