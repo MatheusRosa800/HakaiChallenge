@@ -2,7 +2,7 @@
 
 ## Descrição
 
-Por meio da depuração do código fonte do aplicativo é possível observar que o recurso de verificação de adminitrador pode ser alterado, possibilitando acesso do invasor a ambiente indevido. Após decompilar o apk é possível acessar o arquivo xml de strings do programa. Ali é possivel verificar a existencia da verificação "is_admin". Quando alterado seu valor booleano de no para yes, recompilado e reassinado, varifica-se o acesso a uma plataforma com acesso a criação de usuários.   
+Por meio da depuração do código fonte do aplicativo é possível observar que o recurso de verificação de adminitrador pode ser alterado, possibilitando acesso do invasor a ambiente indevido. Após descompilar o apk é possível acessar o arquivo xml de strings do programa. Ali é possivel verificar a existencia da verificação "is_admin". Quando alterado seu valor booleano de no para yes, recompilado e reassinado, varifica-se o acesso a uma plataforma com acesso a criação de usuários.   
 
 ## Referências 
 
