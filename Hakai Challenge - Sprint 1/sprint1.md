@@ -31,9 +31,10 @@ A Red Ribbon é uma organização que presta serviços relacionados à aplicaç�
 
 ## Conclusão
 - **Recapitulação:**
-  - O estudo em cima do *InsecureBankV2* disponibilizado pela Hakai Security foi uma experiência valiosa.
+  - O estudo em cima do *InsecureBankV2* disponibilizado pela Hakai Security foi uma experiência valiosa com muito estudo por trás.
   - Reconhecimento da importância contínua do monitoramento e atualização do RASP para enfrentar novas ameaças.
   - Nós concluimos que a implementação do **RASP** como serviço pode trazer melhor qualidade na entrega do produto final, pois seria um produto personalizado de acordo com cada demanda do aplicativo.
+  - Entendimento do foco e por onde devemos seguir daqui para frente para o desenvolvimento do **RASP**
 
 - **Agradecimentos:**
   Agradecemos à Hakai Security pela oportunidade de participar deste desafio e aos avaliadores por seu tempo e consideração.
