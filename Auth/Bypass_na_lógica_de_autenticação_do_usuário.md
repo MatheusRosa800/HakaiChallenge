@@ -27,7 +27,7 @@ Esta falha pode ser validada após o reconhecimento das atividades registradas n
 
 ![jadx_bypass](.img/jadx_bypass.png)
 
-Com a informação da atividade, basta executar o comando utilizando a ferramenta adb, com o seguinte comando:
+Com a informação da atividade, basta executar a ferramenta adb, com o seguinte comando:
 
 ```
 adb shell am start -n com.android.insecurebankv2/com.android.insecurebankv2.PostLogin
