@@ -2,7 +2,7 @@
 
 ## Descrição
 
-Quando uma chave criptográfica é codificada dentro de um aplicativo Android, isso significa que a chave está diretamente incorporada no código-fonte do aplicativo. Podemos explorar essa vulnerabilidade explorando um diretório específico no sistema de arquivos do dispositivo onde são armazenados arquivos de preferências compartilhadas para o aplicativo "com.android.insecurebankv2".
+Quando uma chave criptográfica é codificada dentro de um aplicativo Android, isso significa que a chave está diretamente incorporada no código-fonte do aplicativo. Podemos explorar essa vulnerabilidade analisando um diretório específico no sistema de arquivos do dispositivo onde são armazenados arquivos de preferências compartilhadas para o aplicativo "com.android.insecurebankv2".
 
 ## Referências
 
