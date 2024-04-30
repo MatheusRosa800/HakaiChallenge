@@ -29,7 +29,7 @@ A vulnerabilidade pode estar associada a vazamento de dados, exposição não in
 
 ## Prova de conceito
 
-Com acesso ao arquivo AndroidManifest.xml é possóvel identificar a existencia de um receptor de broadcast no aplicativo.
+Com acesso ao arquivo AndroidManifest.xml é possível identificar a existência de um receptor de broadcast no aplicativo.
 
 ![content_provider0](.img/content_provider0.png)
 
@@ -41,7 +41,7 @@ Dessa forma se obtem a URI para testar o acesso e tentar obter algumas informaç
 
 ![content_provider](.img/content_provider.png)
 
-O levantamento das informações possibilita a consulta com a ferramenta **adb** com o seginte comando:
+O levantamento das informações possibilita a consulta com a ferramenta **adb** com o seguinte comando:
 
 ```
 adb shell content query --uri content://com.android.insecurebankv2.TrackUserContentProvider/trackerusers
