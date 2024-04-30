@@ -20,7 +20,7 @@ O impacto da vulnerabilidade de criptografia fraca no aplicativo InsecureBankv2 
 
 ## Prova de conceito
 
-A conclusão de que a vulnerabilidade de criptografia está presente em um determinado diretório, “**/data/data”**, é resultado de análise comportamento do aplicativo. Muitos aplicativos armazenam dados sensíveis, como informações de login, tokens de autenticação e outros dados confidenciais, dentro de seus diretórios em **“/data/data”**
+A conclusão de que a vulnerabilidade de criptografia está presente em um determinado diretório, “**/data/data”**, é resultado de análise comportamental do aplicativo. Muitos aplicativos armazenam dados sensíveis, como informações de login, tokens de autenticação e outros dados confidenciais, dentro de seus diretórios em **“/data/data”**
 
 Portanto precisamos nos conectar no emulador, e interagir com o S.O
 
@@ -29,7 +29,7 @@ adb shell
 
 ```
 
-Ao rodarmos o comando, o adb shell, temos acesso ao Android, e seguido as requisições de chamada, do Manifest, chegamos ate o **‘shared_prefs’,** logo, precisamos acessar esse diretório para explorar ainda mais a vulnerabilidade
+Ao rodarmos o comando, o adb shell, temos acesso ao Android, e seguindo as requisições de chamada, do Manifest, chegamos até o **‘shared_prefs’,** logo, precisamos acessar esse diretório para explorar ainda mais a vulnerabilidade
 
 Vamos utilizar o comando para ir no diretório desejado dentro do sistema Android e verificar o que há no diretório:
 
