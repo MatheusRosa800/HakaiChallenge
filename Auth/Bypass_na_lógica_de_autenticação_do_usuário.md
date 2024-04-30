@@ -2,7 +2,7 @@
 
 ## Descrição
 
-A validação do usuário no código fonte pode ser ***bypassado*** burlando a lógica de funcionamento do aplicativo. Analisando o documento androidmanifet.xml, pode-se verificar a atividade exportada **"post.login"** abaixo da **Dologin**. Desta forma pode-se presumir que esta é a responsavel por liberar o acesso do usuário. Quando executada diretamente via adb, o aplicativo pula a etapa de verificação de login e senha e leva o atacante direto para o ambiente do usuário. 
+A validação do usuário no código fonte pode ser ***bypassado*** burlando a lógica de funcionamento do aplicativo. Analisando o documento androidmanifest.xml, pode-se verificar a atividade exportada **"post.login"** abaixo da **Dologin**. Desta forma pode-se presumir que esta é a responsável por liberar o acesso do usuário. Quando executada diretamente via adb, o aplicativo pula a etapa de verificação de login e senha e leva o atacante direto para o ambiente do usuário. 
 
 ## Referências 
 
@@ -23,11 +23,11 @@ O impacto vai depender das funcionalidades do aplicativo que estão sob acesso d
 
 ## Prova de conceito
 
-Esta falha pode ser validada após o reconhecimento das atividades registradas no arquivo da liguagem de marcação androidmanifest.xml que ser consultado via debuging no JADX.
+Esta falha pode ser validada após o reconhecimento das atividades registradas no arquivo da linguagem de marcação androidmanifest.xml que pode ser consultado via debuging no JADX.
 
 ![jadx_bypass](.img/jadx_bypass.png)
 
-Com a informação da atividade, basta executar o comando utilizando a ferramenta adb, com a seguinte comando:
+Com a informação da atividade, basta executar o comando utilizando a ferramenta adb, com o seguinte comando:
 
 ```
 adb shell am start -n com.android.insecurebankv2/com.android.insecurebankv2.PostLogin
@@ -39,7 +39,7 @@ No ambiente de teste anexado podemos verificar que o aplicativo foi para a area 
 
 # Ação sugerida para mitigação
 
-Problemas de autenticação são vulnerabilidades de segurança encontrados em grande parte de dispositivos móveis, eles ocupam consistentemente o segundo lugar no Top 10 da OWASP. Pensando nisso, mostramos forma de mitigar falhas na autenticação de aplicativos.
+Problemas de autenticação são vulnerabilidades de segurança encontrados em grande parte de dispositivos móveis, eles ocupam consistentemente o segundo lugar no Top 10 da OWASP. Pensando nisso, mostramos uma forma de mitigar falhas na autenticação de aplicativos.
 
 ## Autenticação via servidor
 
@@ -50,4 +50,4 @@ Aplicação destes mecanismos de autenticação devem estar no endpoint remoto.
 # Mitigação baseada em código 
 
 1) Definir a permissão para a aplicação ou definir a opção android:exported=false.
-2) Se pretender utilizar apenas componentes exportados entre aplicações relacionadas sob o seu controlo, utilize android:protectionLevel="signature" no manifesto xml para restringir o acesso a aplicações assinadas por si.
+2) Se pretender utilizar apenas componentes exportados entre aplicações relacionadas sob o seu controle, utilize android:protectionLevel="signature" no androidmanifest.xml para restringir o acesso a aplicações assinadas por si.
