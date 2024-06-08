@@ -22,6 +22,8 @@ A Red Ribbon é uma organização que presta serviços relacionados à aplicaç�
 
 - **Etapas da Implemetação:**
 
+- ## Diagrama
+  <img src="../4.png">
 
 ## Resultados
 - **Overview dos Relatórios:**
