@@ -83,7 +83,7 @@ Pra correlacionar a vulnerabiliades com as soluções, foi preciso primeiro veri
 Com as soluções definidas, é possível chegar em quais produtos, ferramentas e bibliotecas conseguem empregar os tópicos execíficos de forma eficiente. As ferramentas escolhidas pelo grupo foram exclusivamente gratuítas, pois o exercício em questão busca verificar a efíciencia desta abordagem. Isso não descarta a possibilidade de emprego de soluções pagas ou até mesmo do desenvolvimento de uma funcionalidade extra de segurança expecífica caso seja necessário.
 
 ### Free RASP
-É uma biblioteca móvel produzida pela TalSec e fornecida em versão gratuita e paga. Comtém diversas verificações de segurança, destinada a vetores variados de ataque. 
+É uma biblioteca móvel produzida pela TalSec e fornecida em versão gratuita e paga. Contém diversas verificações de segurança, destinada a vetores variados de ataque. 
 ##### Resolve
     - Anti-Hooking
     - Anti-Emulador
