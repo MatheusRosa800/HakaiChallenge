@@ -89,7 +89,7 @@ Com as soluções definidas, é possível chegar em quais produtos, ferramentas 
     - Anti-Emulador
     - Anti-Debugging
     - Anti Tampering
-##### Implmentação
+##### Implementação
 Em andamento
 ##### Referência
 https://github.com/talsec/Free-RASP-Community
@@ -99,7 +99,7 @@ https://github.com/talsec/Free-RASP-Community
 ##### Resolve
     - Secure Comunication
 	- White-Box Cryptography
-##### Implmentação
+##### Implementação
 Em andamento
 ##### Referência
 https://github.com/baidu/openrasp
