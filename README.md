@@ -31,7 +31,6 @@ Primeiramente realizamos pesquisas de soluções RASP (Runtime Application Self-
 - Principais soluções para tais vulnerabilidades
 - Soluções Open Source que oferecem a resolução do problema
 
-## Diagrama 
 
 
 
