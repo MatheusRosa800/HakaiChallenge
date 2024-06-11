@@ -167,7 +167,47 @@ https://github.com/Guardsquare/proguard
 ##### Resolve
     - Root Detection
 ##### Implementação
-Em andamento
+Para aplicar o root beer é necessário primeiro inserira chamada de sua biblioteca no arquivo buld.gradle.kts a nível da raiz do aplicativo. Para isso, na seção de dependencias se deve inserir a seguinte informação:
+
+```
+implementation(libs.rootbeer.lib)
+```
+Depois disso é necessaŕio criar a função de verificação. Na implementação do aplicativo teste, este arquivo foi criado em paralelo ao "MainActivity" na pasta Java da main do projeto com nome RootCheck. O conteúdo é básicamente o memso indicado na documentação da biblioteca com a importações necessárias:
+
+```
+package com.example.beta;
+
+import android.content.Context;
+
+import com.scottyab.rootbeer.RootBeer;
+
+public class RootCheck {
+
+        // Function to check if the device is rooted
+        public boolean isDeviceRooted(Context context) {
+            RootBeer rootBeer = new RootBeer(context);
+            return rootBeer.isRooted();
+    }
+}
+```
+Agora basta chamar a função no script MainActivity e definir qual ação será tomada dentro da classe "OnCreated". No exemplo aplicado, ao verificar que o dispositivo tem acesso Root ele apenas exibirá uma mensagen, no entando outras decisões podem ser tomadas, como fechamento do dispositivo ou até envio de alertas para um servidor remoto.
+
+```
+        RootCheck rootCheck = new RootCheck();
+
+        boolean isRooted = rootCheck.isDeviceRooted(this);
+	if (isRooted) {
+            Snackbar.make(binding.getRoot(), "O dispositivo está com acesso ROOT.", Snackbar.LENGTH_SHORT).show();
+        } else {
+            Snackbar.make(binding.getRoot(), "O dispositivo não está com acesso ROOT.", Snackbar.LENGTH_SHORT).show();
+        }
+
+```
+Depois de completar os passos anteriores é possivel verificar que ao rodar em dispositivo com acesso root, o app vai levantar uma alerta.
+
+![rootbeer](.img/rootbeer.png)
+
+
 ##### Referêcnia
 https://github.com/scottyab/rootbeer    
 
