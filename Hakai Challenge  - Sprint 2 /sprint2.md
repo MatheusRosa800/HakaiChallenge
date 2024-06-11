@@ -118,7 +118,86 @@ https://github.com/afollestad/material-dialogs
 ##### Resolve
     - Data Encryption
 ##### Implementação
-Em andamento
+
+A aplicação de criptografia com a biblioteca AndroidX Security é feita na lógica da classe que recebe entrada e armazena. No exemplo foi criado um campo de entrada simples que arazena os valores inseridos pelo usuário e imprime na tela. Para que este valor esteja protegido, enquanto estiver salvo no dispositivo deve-se habilitar a biblioteca nas dependencias do arquivo build.gradle na raiz do aplicativo:
+
+```
+implementation(libs.security.crypto)
+```
+
+Depois se aplica na classe as funções de encriptar e decriptografar o texto recebido. No exemplo, em uma entrada de texto simples o código assim:
+
+```
+package com.example.beta;
+
+import android.content.Context;
+import android.content.SharedPreferences;
+import android.util.Log;
+
+import androidx.security.crypto.EncryptedSharedPreferences;
+import androidx.security.crypto.MasterKeys;
+
+import java.io.IOException;
+import java.security.GeneralSecurityException;
+
+public class SharedPreferencesManager {
+
+    private static final String PREFS_NAME = "MyPrefs";
+    private static final String KEY_TEXT = "savedText";
+    private SharedPreferences sharedPreferences;
+
+    // Construtor privado para impedir instanciação direta da classe
+    private SharedPreferencesManager() {
+    }
+
+    // Método estático para obter uma instância única da classe
+    public static SharedPreferencesManager getInstance(Context context) {
+        return new SharedPreferencesManager(context);
+    }
+
+    // Construtor que inicializa as SharedPreferences criptografadas
+    private SharedPreferencesManager(Context context) {
+        try {
+            // Cria uma chave mestra para criptografia
+            String masterKeyAlias = MasterKeys.getOrCreate(MasterKeys.AES256_GCM_SPEC);
+
+            // Inicializa as SharedPreferences criptografadas
+            sharedPreferences = EncryptedSharedPreferences.create(
+                    PREFS_NAME,
+                    masterKeyAlias,
+                    context,
+                    EncryptedSharedPreferences.PrefKeyEncryptionScheme.AES256_SIV,
+                    EncryptedSharedPreferences.PrefValueEncryptionScheme.AES256_GCM
+            );
+        } catch (GeneralSecurityException | IOException e) {
+            Log.e("SharedPreferences", "Erro ao inicializar as SharedPreferences criptografadas", e);
+            // Você pode lidar com o erro aqui, talvez lançando uma exceção personalizada
+        }
+    }
+
+    // Método para salvar o texto nas SharedPreferences
+    public void saveText(String text) {
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        editor.putString(KEY_TEXT, text);
+        editor.apply();
+    }
+
+    // Método para recuperar o texto das SharedPreferences
+    public String getText() {
+        return sharedPreferences.getString(KEY_TEXT, "");
+    }
+}
+
+```
+
+As chamadas do main.activity devem então interagir com esta classe, que vai criptografar e armazenar os dados. Para validar isso, no aplicativo primero inserimos "texto seguro" e observamosque o retorno foi o mesmo.
+
+![xsecurity](.img/xsecurity.png)
+
+Já quando acessamos o banco de dados via adb, ao abrir o arquivo xml onde a entrada foi armazenada, podemos perceber que o texto foi de fato criptogrado. 
+
+![xsecurity](.img/xsecurity2.png)
+
 ##### Referêcnia
 https://developer.android.com/jetpack/androidx/releases/security?hl=pt-br
 
