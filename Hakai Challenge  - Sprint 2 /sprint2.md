@@ -18,7 +18,7 @@ Com a finalidade de ter uma visão mais clara a respeito da superfície do aplic
 A Red Ribbon é uma organização que presta serviços relacionados à aplicações mobile usando uma solução RASP SDK (Runtime Application Self-Protection).
 
 ## Correlacionando as vulnerabiliades
-Pra correlacionar a vulnerabiliades com as soluções, foi preciso primeiro verificar do que já se tem como efetivo no mercado. No paper **"Honey, I Shrunk Your App Security: The State of Android App Hardening"** publicado por alunos da Friedrich-Alexander University da Alemanha, é possível encontrar um levantamento muito completo de soluções RASP e suas funcionalidades. Nele, foi possível indeitificar 12 soluções nas quais já existem produtos de mercado. Cruzando estas soluções com as mitigações necessárias para protejer o aplicativo, chegamos à conclusão de que 10 destas seria o suficiente para solucionar o problema. 
+Pra correlacionar a vulnerabiliades com as soluções, foi preciso primeiro verificar do que já se tem como efetivo no mercado. No paper **"Honey, I Shrunk Your App Security: The State of Android App Hardening"** publicado por alunos da Friedrich-Alexander University da Alemanha, é possível encontrar um levantamento muito completo de soluções RASP e suas funcionalidades. Nele, foi possível identificar 12 soluções nas quais já existem produtos de mercado. Cruzando estas soluções com as mitigações necessárias para protejer o aplicativo, chegamos à conclusão de que 10 destas seria o suficiente para solucionar o problema. 
 
 ### Soluções já existentes no mercado
 - Anti-Tampering: Verificar a assinatura do pacote de assinatura do pacote de aplicativos Android na inicialização.
@@ -35,11 +35,11 @@ Pra correlacionar a vulnerabiliades com as soluções, foi preciso primeiro veri
 - Secure Comunication: Fornce API própria de rede HTTPS e implementar certificado de cliente no arquivo de configuração para verificações
 
 ### Vulnerabilidades e mitigações
-- Bypass na lógica de autentucação do usuário:
+- Bypass na lógica de autenticação do usuário:
     - Anti-hooking
 - Criptografia fraca
     - White-Box Cryptography
-- Interceptação de dados transmitidos por porotocolo inseguro
+- Interceptação de dados transmitidos por protocolo inseguro
     - Secure Communication
 - Acesso não autorizado ao provedor de conteúdo do aplicativo
     - Anti-Emulator
@@ -80,7 +80,7 @@ Pra correlacionar a vulnerabiliades com as soluções, foi preciso primeiro veri
 - Root Detection
 
 ## Produtos e ferramentas
-Com as soluções definidas, é possível chegar em quais produtos, ferramentas e bibliotecas conseguem empregar os tópicos execíficos de forma eficiente. As ferramentas escolhidas pelo grupo foram exclusivamente gratuítas, pois o exercício em questão busca verificar a efíciencia desta abordagem. Isso não descarta a possibilidade de emprego de soluções pagas ou até mesmo do desenvolvimento de uma funcionalidade extra de segurança expecífica caso seja necessário.
+Com as soluções definidas, é possível chegar em quais produtos, ferramentas e bibliotecas conseguem empregar os tópicos específicos de forma eficiente. As ferramentas escolhidas pelo grupo foram exclusivamente gratuitas, pois o exercício em questão busca verificar a eficiência desta abordagem. Isso não descarta a possibilidade de emprego de soluções pagas ou até mesmo do desenvolvimento de uma funcionalidade extra de segurança expecífica caso seja necessário.
 
 ### Free RASP
 É uma biblioteca móvel produzida pela TalSec e fornecida em versão gratuita e paga. Contém diversas verificações de segurança, destinada a vetores variados de ataque. 
@@ -95,7 +95,7 @@ Em andamento
 https://github.com/talsec/Free-RASP-Community
 
 ### OpenRASP
-É uma solução de controle de peŕimetro. Consegue monitorar vários eventos através de integração dos seu mecanismos de defesa com o servidor do aplicativo.
+É uma solução de controle de perímetro. Consegue monitorar vários eventos através de integração dos seu mecanismos de defesa com o servidor do aplicativo.
 ##### Resolve
     - Secure Comunication
 	- White-Box Cryptography
@@ -105,7 +105,7 @@ Em andamento
 https://github.com/baidu/openrasp
 
 ### Material Dialogs
-É uma blioteca que possui deversos módulos pare coleta de entradas de forma segura. Uma delas o SecureEditText
+É uma biblioteca que possui diversos módulos para coleta de entradas de forma segura. Uma delas é o SecureEditText
 ##### Resolve
     - Anti-Keylogger
 ##### Implementação
@@ -123,7 +123,7 @@ Em andamento
 https://developer.android.com/jetpack/androidx/releases/security?hl=pt-br
 
 ### ProGuard
-É um ofuscador otimizador e préverficador para Java
+É um ofuscador otimizador e pré-verficador para Java
 ##### Resolve
     - Code Obfuscation
 ##### Implementação
@@ -132,7 +132,7 @@ Em andamento
 https://github.com/Guardsquare/proguard
 
 ### RootBeer
-"Esse diisposiitivo tem root?" É a pegunta que a biblioteca promete responder através de diversos métodos
+"Esse dispositivo tem root?" É a pegunta que a biblioteca promete responder através de diversos métodos
 ##### Resolve
     - Root Detection
 ##### Implementação
@@ -153,7 +153,7 @@ https://github.com/scottyab/rootbeer
 
 
 - **Agradecimentos:**
-  Agradecemos à Hakai Security pela oportunidade de participar deste desafio e aos avaliadores por seu tempo e consideração.
+  Agradecemos a Hakai Security pela oportunidade de participar deste desafio e aos avaliadores por seu tempo e consideração.
 
 ![image](https://github.com/MatheusRosa800/HakaiChallenge/assets/105319207/a2aa1d8e-6d24-48fa-a646-aaee07b63028) 
 ![OIG3-removebg-preview](https://github.com/MatheusRosa800/HakaiChallenge/assets/127846261/a48fd91e-3084-4313-a8a8-c8cd067cb7fb)
