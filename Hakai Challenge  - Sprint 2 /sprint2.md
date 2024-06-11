@@ -127,7 +127,38 @@ https://developer.android.com/jetpack/androidx/releases/security?hl=pt-br
 ##### Resolve
     - Code Obfuscation
 ##### Implementação
-Em andamento
+Para aplicar a biblioteca e implementar a ofuscação do código fonte é preciso primeiro chamar o proguard no arquivo build.gradle presente na pasta raiz do projeto. 
+
+![proguard1](.img/proguard1.png)
+
+Dentro da classe de release, o seguinte código pode ser inserido, com a função de ofuscar e compactar o código fonte da aplicação.
+
+```
+isMinifyEnabled = true
+isShrinkResources = true
+if(signingConfig != null)
+proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
+```
+Depois disso é necessário inserir no arquivo proguard-rules.pro as orientações de aplicação do proguard, que no exemplo foram os seguintes:
+
+```
+-dontwarn org.bouncycastle.jsse.BCSSLParameters
+-dontwarn org.bouncycastle.jsse.BCSSLSocket
+-dontwarn org.bouncycastle.jsse.provider.BounceCastleJsseProvider
+-dontwarn org.conscrypt.Conscrypt$Verifier
+-dontwarn org.conscrypt.Conscrypt
+-dontwarn org.conscrypt.ConscryptHostnameVerifier
+-dontwarn org.openjsse.javax.net.ssl.SSLParameters
+-dontwarn org.openjsse.javax.net.ssl.SSLSocket
+-dontwarn org.openjsse.net.ssl.OpenJSSE
+-dontwarn org.slf4j.impl.StaticLoggerBinder
+```
+
+Com isso, após compilado é possível abrir o apk e verificar que algumas chamadas foram alteradas com a finalidade de dificultar a compreenção do código.
+
+![proguard2](.img/proguard2.png)
+
+
 ##### Referêcnia
 https://github.com/Guardsquare/proguard
 
