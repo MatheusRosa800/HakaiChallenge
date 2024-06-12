@@ -260,6 +260,9 @@ Depois de completar os passos anteriores é possível verificar que ao rodar em 
 
 ![rootbeer](.img/rootbeer.png)
 
+##### Referência
+https://github.com/scottyab/rootbeer    
+
 ### Free RASP
 É uma biblioteca móvel produzida pela TalSec e fornecida em versão gratuita e paga. Contém diversas verificações de segurança, destinada a vetores variados de ataque. 
 ##### Resolve
@@ -291,10 +294,6 @@ Em andamento
 ##### Referência
 https://github.com/afollestad/material-dialogs
 
-
-
-##### Referência
-https://github.com/scottyab/rootbeer    
 
 
 ## Resultados
