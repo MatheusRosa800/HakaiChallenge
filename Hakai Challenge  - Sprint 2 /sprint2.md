@@ -6,8 +6,6 @@ Após realizar os testes e localizar os pontos de vulnerabilidade no aplicativo 
 
 Com a finalidade de ter uma visão mais clara a respeito da superfície do aplicativo foi criado um organograma com apoio da ferramenta Threat Dragon. Na modelagem de ameaças, 12 vulnerabilidades encontradas no aplicativos, foram devidamente registradas dentro de cada grupo de controle. O registro facilitou o entendimento o tipo de vulnerabilidade, o acesso a uma breve descrição da mesma e as formas de mitigação. Com estas informações organizadas foi possível encontrar as soluções adequadas já disponíveis a serem implementadas de forma personalizada.
 
-- ## Diagrama
-  <img src="../4.png">
 
 ## Grupo Red Ribbon
 - **Membros da Equipe:**
@@ -22,6 +20,9 @@ A Red Ribbon é uma organização que presta serviços relacionados à aplicaç�
 
 ## Correlacionando as vulnerabilidades
 Pra correlacionar a vulnerabilidades com as soluções, foi preciso primeiro verificar do que já se tem como efetivo no mercado. No paper **"Honey, I Shrunk Your App Security: The State of Android App Hardening"** publicado por alunos da Friedrich-Alexander University da Alemanha, é possível encontrar um levantamento muito completo de soluções RASP e suas funcionalidades. Nele, foi possível identificar 12 soluções nas quais já existem produtos de mercado. Cruzando estas soluções com as mitigações necessárias para proteger o aplicativo, chegamos à conclusão de que 10 destas seria o suficiente para solucionar o problema. 
+
+- ## Diagrama
+  <img src="../4.png">
 
 ### Soluções já existentes no mercado
 - Anti-Tampering: Verificar a assinatura do pacote de assinatura do pacote de aplicativos Android na inicialização.
