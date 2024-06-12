@@ -82,36 +82,7 @@ Pra correlacionar a vulnerabilidades com as soluções, foi preciso primeiro ver
 ## Produtos e ferramentas
 Com as soluções definidas, é possível chegar em quais produtos, ferramentas e bibliotecas conseguem empregar os tópicos específicos de forma eficiente. As ferramentas escolhidas pelo grupo foram exclusivamente gratuitas, pois o exercício em questão busca verificar a eficiência desta abordagem. Isso não descarta a possibilidade de emprego de soluções pagas ou até mesmo do desenvolvimento de uma funcionalidade extra de segurança específica caso seja necessário.
 
-### Free RASP
-É uma biblioteca móvel produzida pela TalSec e fornecida em versão gratuita e paga. Contém diversas verificações de segurança, destinada a vetores variados de ataque. 
-##### Resolve
-    - Anti-Hooking
-    - Anti-Emulador
-    - Anti-Debugging
-    - Anti Tampering
-##### Implementação
-Em andamento
-##### Referência
-https://github.com/talsec/Free-RASP-Community
 
-### OpenRASP
-É uma solução de controle de perímetro. Consegue monitorar vários eventos através de integração dos seus mecanismos de defesa com o servidor do aplicativo.
-##### Resolve
-    - Secure Comunication
-	- White-Box Cryptography
-##### Implementação
-Em andamento
-##### Referência
-https://github.com/baidu/openrasp
-
-### Material Dialogs
-É uma biblioteca que possui diversos módulos para coleta de entradas de forma segura. Uma delas é o SecureEditText
-##### Resolve
-    - Anti-Keylogger
-##### Implementação
-Em andamento
-##### Referência
-https://github.com/afollestad/material-dialogs
 
 ### AndroidX Security
 "Gerencia chaves com segurança e criptografa arquivos de preferências compartilhadas"
@@ -285,6 +256,38 @@ Agora basta chamar a função no script MainActivity e definir qual ação será
 Depois de completar os passos anteriores é possível verificar que ao rodar em dispositivo com acesso root, o app vai levantar uma alerta.
 
 ![rootbeer](.img/rootbeer.png)
+
+### Free RASP
+É uma biblioteca móvel produzida pela TalSec e fornecida em versão gratuita e paga. Contém diversas verificações de segurança, destinada a vetores variados de ataque. 
+##### Resolve
+    - Anti-Hooking
+    - Anti-Emulador
+    - Anti-Debugging
+    - Anti Tampering
+##### Implementação
+Em andamento
+##### Referência
+https://github.com/talsec/Free-RASP-Community
+
+### OpenRASP
+É uma solução de controle de perímetro. Consegue monitorar vários eventos através de integração dos seus mecanismos de defesa com o servidor do aplicativo.
+##### Resolve
+    - Secure Comunication
+	- White-Box Cryptography
+##### Implementação
+Em andamento
+##### Referência
+https://github.com/baidu/openrasp
+
+### Material Dialogs
+É uma biblioteca que possui diversos módulos para coleta de entradas de forma segura. Uma delas é o SecureEditText
+##### Resolve
+    - Anti-Keylogger
+##### Implementação
+Em andamento
+##### Referência
+https://github.com/afollestad/material-dialogs
+
 
 
 ##### Referência
