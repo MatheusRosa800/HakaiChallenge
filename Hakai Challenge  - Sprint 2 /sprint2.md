@@ -6,6 +6,9 @@ Após realizar os testes e localizar os pontos de vulnerabilidade no aplicativo 
 
 Com a finalidade de ter uma visão mais clara a respeito da superfície do aplicativo foi criado um organograma com apoio da ferramenta Threat Dragon. Na modelagem de ameaças, 12 vulnerabilidades encontradas no aplicativos, foram devidamente registradas dentro de cada grupo de controle. O registro facilitou o entendimento o tipo de vulnerabilidade, o acesso a uma breve descrição da mesma e as formas de mitigação. Com estas informações organizadas foi possível encontrar as soluções adequadas já disponíveis a serem implementadas de forma personalizada.
 
+- ## Diagrama
+  <img src="../4.png">
+
 ## Grupo Red Ribbon
 - **Membros da Equipe:**
   - Matheus Rosa
