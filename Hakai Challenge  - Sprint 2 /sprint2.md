@@ -21,8 +21,7 @@ A Red Ribbon é uma organização que presta serviços relacionados à aplicaç�
 ## Correlacionando as vulnerabilidades
 Pra correlacionar a vulnerabilidades com as soluções, foi preciso primeiro verificar do que já se tem como efetivo no mercado. No paper **"Honey, I Shrunk Your App Security: The State of Android App Hardening"** publicado por alunos da Friedrich-Alexander University da Alemanha, é possível encontrar um levantamento muito completo de soluções RASP e suas funcionalidades. Nele, foi possível identificar 12 soluções nas quais já existem produtos de mercado. Cruzando estas soluções com as mitigações necessárias para proteger o aplicativo, chegamos à conclusão de que 10 destas seria o suficiente para solucionar o problema. 
 
-- ## Diagrama
-  <img src="../4.png">
+![diagrama](.img/diagrama.png)
 
 ### Soluções já existentes no mercado
 - Anti-Tampering: Verificar a assinatura do pacote de assinatura do pacote de aplicativos Android na inicialização.
