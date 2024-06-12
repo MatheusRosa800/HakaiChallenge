@@ -296,10 +296,6 @@ https://github.com/afollestad/material-dialogs
 ##### Referência
 https://github.com/scottyab/rootbeer    
 
-- **Etapas da Implementação:**
-
-- ## Diagrama
-  <img src="../4.png">
 
 ## Resultados
 - **Overview dos Relatórios:**
