@@ -31,8 +31,14 @@ Primeiramente realizamos pesquisas de soluções RASP (Runtime Application Self-
 - Principais soluções para tais vulnerabilidades
 - Soluções Open Source que oferecem a resolução do problema
 
+# Entrega 03
+Apartir desta etapa, iniciamos o projeto RASP SDK na parte de desenvolvimento. Para tal, trabalhamos apartir dos insights que tivemos com as pesquisas e com o exercicio pratico do InsecureBank. 
 
+Decidimos que deveriamos implementar primeiramente essas solucoes devido ao nivel de dificuldade e nivel de conhecimento sobre cada uma. 
 
+- Root Detection
+- Obfuscation
+- Mais um
 
 <div style="display: flex;">
   <img src="2.png" alt="Texto Alternativo" width="300px">
