@@ -33,6 +33,15 @@ Primeiramente realizamos pesquisas de soluções RASP (Runtime Application Self-
 
 # Entrega 03
 
+implementacao 
+
+anti-hooking
+anti-debugger
+anti-root
+criptografia de dados locais
+ofuscação
+keystore system
+certificado ssl 
 
 <div style="display: flex;">
   <img src="2.png" alt="Texto Alternativo" width="300px">
