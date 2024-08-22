@@ -35,12 +35,13 @@ Primeiramente realizamos pesquisas de soluções RASP (Runtime Application Self-
 
 Na terceira fase do desafio Hakai, a equipe Red Ribbon implementou diversas soluções de segurança no aplicativo mobile. As melhorias incluem:
 
-Anti-Debugger: Detecção e prevenção de depuração do aplicativo.
-Anti-Root: Verificação de dispositivos com acesso root e bloqueio de execução em tais dispositivos.
-Criptografia de Dados Locais: Proteção de dados armazenados localmente por meio de criptografia robusta.
-Ofuscação: Modificação de código para dificultar engenharia reversa.
-Hashing: Verificação de integridade de arquivos críticos, como MainActivity e build.gradle.
-Certificado SSL: Implementação de criptografia para comunicações entre o aplicativo e servidores.
+- Anti-Debugger: Detecção e prevenção de depuração do aplicativo.
+- Anti-Root: Verificação de dispositivos com acesso root e bloqueio de execução em tais dispositivos.
+- Criptografia de Dados Locais: Proteção de dados armazenados localmente por meio de criptografia robusta.
+- Ofuscação: Modificação de código para dificultar engenharia reversa.
+- Hashing: Verificação de integridade de arquivos críticos, como MainActivity e build.gradle.
+- Certificado SSL: Implementação de criptografia para comunicações entre o aplicativo e servidores.
+
 Essas medidas visam fortalecer a segurança do aplicativo contra ameaças em tempo real.
 
 <div style="display: flex;">
