@@ -1,6 +1,6 @@
 # Roadmap até aqui!
 
-
+<img src=".img/Roadmap.png">
 
 ## Feitas
 
