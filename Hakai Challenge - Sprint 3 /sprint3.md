@@ -21,4 +21,4 @@ Com a implementação dessas soluções, nosso objetivo é fortalecer a seguran�
 
 ## A fazer 
 
-- Unir todos os arquivos, configruacoes e solucoes em uma biblioteca chamada Red Ribbon. Com o intuito de realizar o import e utilizar tudo como funcoes da lib RR.
+- Unir todos os arquivos, configurações e soluções em uma biblioteca chamada Red Ribbon. Com o intuito de realizar o import e utilizar tudo como funções da lib RR.
