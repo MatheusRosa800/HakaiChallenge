@@ -37,6 +37,9 @@ Com a implementação dessas soluções, nosso objetivo é fortalecer a seguran�
 
 ## Para última entrega
 
+### KeyStore
+Integrar o Android Keystore no aplicativo para gerenciar chaves criptográficas de forma segura.
+
 ### Integração e Testes
 Garantir que todas as funcionalidades implementadas sejam integradas corretamente na nova biblioteca Red Ribbon. Realizar testes abrangentes para validar que todos os componentes funcionem em conjunto e que não haja regressões nas funcionalidades existentes.
 
