@@ -19,6 +19,12 @@
 
 Com a implementação dessas soluções, nosso objetivo é fortalecer a segurança do aplicativo e proporcionar uma proteção eficaz contra ameaças em tempo real.
 
-## A fazer 
+## Para ultima entrega
 
+- Aprimorar as funções de cada solução
+- Colocar as ações em cada Activity
+- Tentar substituir a anti-root por uma nossa
 - Unir todos os arquivos, configurações e soluções em uma biblioteca chamada Red Ribbon. Com o intuito de realizar o import e utilizar tudo como funções da lib RR.
+
+
+
