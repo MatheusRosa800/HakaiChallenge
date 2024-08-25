@@ -1,8 +1,3 @@
-# Roadmap até aqui!
-
-<img src=".img/roadmap.png">
-
-
 ## Introdução 
 
 Nos últimos meses, temos aplicado o conhecimento adquirido nas etapas anteriores do projeto, concentrando-nos na correlação de problemas identificados, mitigação de riscos e desenvolvimento de soluções eficazes encontradas no mercado atual. Após uma análise detalhada das vulnerabilidades e desafios enfrentados, avançamos para a fase de codificação.
@@ -10,6 +5,21 @@ Nos últimos meses, temos aplicado o conhecimento adquirido nas etapas anteriore
 Durante este período, dedicamo-nos a implementar e testar diversas técnicas de segurança em um aplicativo de teste que criamos especificamente para simular um ambiente real. Este aplicativo de teste serviu como um campo de provas para validar e refinar nossas soluções, garantindo que elas funcionem conforme o esperado no aplicativo que será disponibilizado pela HAKAI.
 
 Através dessa abordagem prática, conseguimos integrar e avaliar funcionalidades essenciais para a segurança do aplicativo.
+
+## Grupo Red Ribbon
+- **Membros da Equipe:**
+  - Matheus Rosa
+  - Henrique Koji
+  - Felipe Madeira
+  - Pedro Augusto
+  - Caio Vinícius
+
+- **Descrição:**
+A Red Ribbon é uma organização que presta serviços relacionados à aplicações mobile usando uma solução RASP SDK (Runtime Application Self-Protection).
+
+# Roadmap até aqui!
+
+<img src=".img/roadmap.png">
 
 ## Soluções de segurança feitas e implantadas
 
