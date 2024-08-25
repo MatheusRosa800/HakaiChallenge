@@ -2,7 +2,16 @@
 
 <img src=".img/roadmap.png">
 
-## Feitas
+
+## Introdução 
+
+Nos últimos meses, temos aplicado o conhecimento adquirido nas etapas anteriores do projeto, concentrando-nos na correlação de problemas identificados, mitigação de riscos e desenvolvimento de soluções eficazes encontradas no mercado atual. Após uma análise detalhada das vulnerabilidades e desafios enfrentados, avançamos para a fase de codificação.
+
+Durante este período, dedicamo-nos a implementar e testar diversas técnicas de segurança em um aplicativo de teste que criamos especificamente para simular um ambiente real. Este aplicativo de teste serviu como um campo de provas para validar e refinar nossas soluções, garantindo que elas funcionem conforme o esperado no aplicativo que será disponibilizado pela HAKAI.
+
+Através dessa abordagem prática, conseguimos integrar e avaliar funcionalidades essenciais para a segurança do aplicativo.
+
+## Soluções de segurança feitas e implantadas
 
 - Anti-Debugger: Implementar mecanismos que detectam tentativas de depuração e fecham o aplicativo se essas tentativas forem identificadas.
 
@@ -11,20 +20,24 @@
 - Criptografia de Dados Locais: Implementar criptografia robusta para dados armazenados localmente no dispositivo, garantindo que informações sensíveis estejam protegidas contra acesso não autorizado.
 
 - Ofuscação: Utilizar técnicas de ofuscação para proteger o código do aplicativo contra engenharia reversa. Isso envolve a modificação dos nomes de classes e métodos para tornar o código mais difícil de ser compreendido por atacantes.
-
-## Em progresso
+  
 - Hashing: Adicionar verificação de integridade dos arquivos críticos do aplicativo, como MainActivity e build.gradle, calculando e comparando hashes para detectar modificações não autorizadas.
-
-- Certificado SSL: Implementar e garantir a utilização de certificados SSL para criptografar as comunicações entre o aplicativo e os servidores, protegendo os dados em trânsito contra interceptação e adulteração.
 
 Com a implementação dessas soluções, nosso objetivo é fortalecer a segurança do aplicativo e proporcionar uma proteção eficaz contra ameaças em tempo real.
 
-## Para ultima entrega
+## Para última entrega
 
-- Aprimorar as funções de cada solução
-- Colocar as ações em cada Activity
-- Tentar substituir a anti-root por uma nossa
-- Unir todos os arquivos, configurações e soluções em uma biblioteca chamada Red Ribbon. Com o intuito de realizar o import e utilizar tudo como funções da lib RR.
+### Integração e Testes
+Garantir que todas as funcionalidades implementadas sejam integradas corretamente na nova biblioteca Red Ribbon. Realizar testes abrangentes para validar que todos os componentes funcionem em conjunto e que não haja regressões nas funcionalidades existentes.
+
+### Documentação
+Criar uma documentação detalhada para a biblioteca Red Ribbon, incluindo instruções sobre como importar e utilizar as funções disponíveis. Incluir exemplos de uso e melhores práticas para facilitar a adoção e implementação pelos desenvolvedores.
+
+### Desempenho e Otimização 
+Avaliar o impacto das novas funcionalidades no desempenho do aplicativo. Otimizar o código e as configurações para garantir que a biblioteca Red Ribbon ofereça uma proteção robusta sem comprometer a performance.
+
+
+
 
 
 
