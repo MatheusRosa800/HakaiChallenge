@@ -1,6 +1,3 @@
-package com.sprint4.redribbon.frida;
-
-
 import android.content.Context;
 import android.util.Log;
 import android.widget.Toast;
