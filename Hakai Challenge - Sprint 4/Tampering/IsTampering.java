@@ -1,4 +1,3 @@
-package com.sprint4.redribbon.tampering;
 
 public class IsTampering {
     public static boolean check(String filePath, String gitHubFileUrl) {
