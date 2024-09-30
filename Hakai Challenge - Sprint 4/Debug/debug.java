@@ -1,5 +1,3 @@
-package com.sprint4.redribbon.debug;
-
 import android.content.Context;
 import android.os.Debug;
 import android.provider.Settings;
