@@ -7,7 +7,7 @@ import com.sprint4.redribbon.debug.DebugUtils;
 
 import android.os.Bundle;
 import android.os.AsyncTask;
-import android.os.Handler; // Importando a classe Handler
+import android.os.Handler; 
 import android.os.Looper;
 import android.view.Menu;
 import android.widget.Toast;
@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
 
     private ExecutorService executorService;
 
-    private Handler handler; // Agora a classe Handler deve ser reconhecida
+    private Handler handler; 
 
     private Runnable checkDebuggerRunnable;
     private static final String GITHUB_FILE_URL = "https://raw.githubusercontent.com/MatheusRosa800/HakaiChallenge/refs/heads/main/Hakai%20Challenge%20-%20Sprint%203%20/Proguard%20/redribbon_proguard.pro"; // Substitua pelo seu URL
@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         // TRAINTDROID DETECT
-
+        
         // Variáveis para verificar se algo foi detectado
         boolean hasTaintClass = IsTraintD.hasTaintClass();
         boolean hasTaintMembers = IsTraintD.hasTaintMemberVariables();
@@ -87,11 +87,8 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-
-
         // TAMPERING DETECT
-
-
+        
         // Instanciando a classe RedRibbon
         caller caller = new caller();
 
@@ -107,7 +104,6 @@ public class MainActivity extends AppCompatActivity {
 
         // Executar a verificação de forma assíncrona
         new FetchGitHubHashTask(caller, filePath).execute(gitHubFileUrl);
-
 
 
 
@@ -135,10 +131,8 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-
         // DEBUGGER DETECT E USB DETECT
-
-
+        
         // Configura o Handler e o Runnable para verificar o debugger e a depuração USB a cada 30 segundos
         handler = new Handler(Looper.getMainLooper());
         checkDebuggerRunnable = new Runnable() {
@@ -173,18 +167,13 @@ public class MainActivity extends AppCompatActivity {
 
 
         // Inicia o primeiro ciclo de verificação com um atraso de 1 segundo após a verificação de ROOT
-        handler.postDelayed(checkDebuggerRunnable, 3000); // 1000 milissegundos = 1 segundo
-
-
-
-
-
-    }// acaba on create
+        handler.postDelayed(checkDebuggerRunnable, 3000); 
+        
+    }
 
 
 
     // ANTI EMULATOR
-
     public boolean isQEmuEnvDetected() {
         log("Procurando por QEmu env...");
 
@@ -207,8 +196,8 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    
     // ANTI TAMPERING
-
     private class FetchGitHubHashTask extends AsyncTask<String, Void, String> {
         private final caller caller;
         private final String filePath;
@@ -234,7 +223,7 @@ public class MainActivity extends AppCompatActivity {
             if (gitHubHash != null) {
                 Toast.makeText(MainActivity.this, "Hash do arquivo na nuvem: " + gitHubHash, Toast.LENGTH_LONG).show();
 
-                // Executar a verificação
+               
                 boolean tampered = caller.isTampering(filePath, gitHubHash);
                 if (tampered) {
                     Toast.makeText(MainActivity.this, "Tampering Alert: O arquivo foi adulterado.", Toast.LENGTH_LONG).show();
