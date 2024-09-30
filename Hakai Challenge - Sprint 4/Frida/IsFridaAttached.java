@@ -15,7 +15,7 @@ public class IsFridaAttached {
     private Context context;
 
     public IsFridaAttached(Context context) {
-        this.context = context; // Contexto da atividade para exibir Toasts
+        this.context = context; 
     }
 
     public boolean detectFrida() {
@@ -29,7 +29,7 @@ public class IsFridaAttached {
 
     private boolean detectFridaWebSocket() {
         showToast("Detectando Frida via WebSocket...");
-        return checkWebSocketPort(9); // Verificando apenas a porta 9 para WebSocket
+        return checkWebSocketPort(9); 
     }
 
     private boolean checkPort(int port) {
@@ -37,20 +37,20 @@ public class IsFridaAttached {
              OutputStream outputStream = socket.getOutputStream();
              BufferedReader reader = new BufferedReader(new InputStreamReader(socket.getInputStream()))) {
 
-            outputStream.write("\\x00".getBytes()); // Enviar um byte 0
+            outputStream.write("\\x00".getBytes()); 
             outputStream.write("AUTH\r\n".getBytes());
             outputStream.flush();
 
             String line;
             if ((line = reader.readLine()) != null && line.equals("REJECT")) {
                 showToast("Frida detectado via D-Bus na porta " + port);
-                return true;  // Frida detectado
+                return true;  
             }
 
         } catch (IOException e) {
             Log.d(TAG, "Porta " + port + " não está acessível: " + e.getMessage());
         }
-        return false;  // Nenhum Frida detectado
+        return false;  
     }
 
     private boolean checkWebSocketPort(int port) {
@@ -73,14 +73,14 @@ public class IsFridaAttached {
             while ((line = reader.readLine()) != null) {
                 if (line.contains("tyZql/Y8dNFFyopTrHadWzvbvRs=")) {
                     showToast("Frida detectado na porta " + port + " (WebSocket)");
-                    return true;  // Frida detectado
+                    return true;  
                 }
             }
 
         } catch (IOException e) {
             Log.d(TAG, "WebSocket na porta " + port + " não está acessível: " + e.getMessage());
         }
-        return false;  // Nenhum Frida detectado
+        return false;  
     }
 
     private void showToast(String message) {
