@@ -1,4 +1,3 @@
-package com.sprint4.redribbon.tampering;
 import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.URL;
