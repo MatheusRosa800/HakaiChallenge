@@ -1,5 +1,3 @@
-package com.sprint4.redribbon.emulator;
-
 import android.content.Context;
 import android.telephony.TelephonyManager;
 import android.util.Log;
