@@ -1,5 +1,3 @@
-
-
 public class Property {
     public String name;
     public String seek_value;
