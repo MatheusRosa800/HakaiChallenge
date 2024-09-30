@@ -1,5 +1,3 @@
-package com.sprint4.redribbon;
-
 import static com.sprint4.redribbon.emulator.AntiEmulator.log;
 import static com.sprint4.redribbon.tampering.FileHashUtils.getFileSha256Hash;
 
