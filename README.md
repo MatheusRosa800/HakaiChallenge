@@ -48,11 +48,11 @@ Essas medidas visam fortalecer a segurança do aplicativo contra ameaças em tem
 
 Na quarta e última fase do desafio Hakai, a equipe Red Ribbon finalizou a implementação de todas as soluções de segurança planejadas para o projeto RASP. As principais entregas incluem:
 
-Finalização das Soluções de Segurança: Concluímos o desenvolvimento das proteções contra debugger, root, ADB, Frida, entre outros. Essas medidas foram aplicadas ao aplicativo, visando proteger sua integridade em tempo real.
+**Finalização das Soluções de Segurança**: Concluímos o desenvolvimento das proteções contra debugger, root, ADB, Frida, entre outros. Essas medidas foram aplicadas ao aplicativo, visando proteger sua integridade em tempo real.
 
-Criação da Biblioteca Red Ribbon: Consolidamos as soluções em uma biblioteca unificada e modular, facilitando a integração com outros projetos Android. A biblioteca está pronta para ser utilizada em diferentes aplicativos como uma camada adicional de segurança.
+**Criação da Biblioteca Red Ribbon**: Consolidamos as soluções em uma biblioteca unificada e modular, facilitando a integração com outros projetos Android. A biblioteca está pronta para ser utilizada em diferentes aplicativos como uma camada adicional de segurança.
 
-Apresentação à Hakai Security: Apresentamos as funcionalidades da biblioteca ao time da Hakai, explicando a aplicação de cada solução de segurança e os benefícios para proteção em tempo de execução.
+**Apresentação à Hakai Security**: Apresentamos as funcionalidades da biblioteca ao time da Hakai, explicando a aplicação de cada solução de segurança e os benefícios para proteção em tempo de execução.
 
 Essa entrega marca a conclusão do desenvolvimento do SDK RASP, demonstrando nosso compromisso com a segurança e robustez de aplicativos mobile.
 
